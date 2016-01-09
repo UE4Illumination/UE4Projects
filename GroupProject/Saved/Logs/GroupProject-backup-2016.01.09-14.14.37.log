@@ -1,0 +1,1034 @@
+﻿[2016.01.09-02.55.09:758][  0]Log file open, 01/09/16 13:55:09
+[2016.01.09-02.55.09:758][  0]LogInit:Display: Running engine for game: GroupProject
+[2016.01.09-02.55.09:758][  0]LogPlatformFile: Not using cached read wrapper
+[2016.01.09-02.55.09:758][  0]LogInit:Display: RandInit(-1520044888) SRandInit(-1520044884).
+[2016.01.09-02.55.09:758][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.09-02.55.09:758][  0]LogStats: Stats thread started at 0.104402
+[2016.01.09-02.55.09:758][  0]LogInit: Version: 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2016.01.09-02.55.09:758][  0]LogInit: API Version: 2758231
+[2016.01.09-02.55.09:758][  0]LogInit: Compiled (64-bit): Nov  7 2015 05:13:45
+[2016.01.09-02.55.09:758][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.01.09-02.55.09:758][  0]LogInit: Build Configuration: Development
+[2016.01.09-02.55.09:758][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.01.09-02.55.09:758][  0]LogInit: Command line:  
+[2016.01.09-02.55.09:758][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.01.09-02.55.09:758][  0]LogInit: Rocket: 1
+[2016.01.09-02.55.09:758][  0]LogInit: Using libcurl 7.41.0
+[2016.01.09-02.55.09:758][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.09-02.55.09:758][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.09-02.55.09:758][  0]LogInit:  - other features:
+[2016.01.09-02.55.09:758][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.09-02.55.09:758][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.09-02.55.09:758][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.09-02.55.09:758][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.09-02.55.09:758][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.09-02.55.09:758][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.09-02.55.09:758][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.09-02.55.09:758][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.09-02.55.09:758][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.09-02.55.09:758][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.09-02.55.09:758][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.09-02.55.09:758][  0]LogInit: Object subsystem initialized
+[2016.01.09-02.55.09:758][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.09-02.55.09:758][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.09-02.55.09:778][  0]LogInit: Computer: DESKTOP-O1OB1PS
+[2016.01.09-02.55.09:778][  0]LogInit: User: NewPC
+[2016.01.09-02.55.09:778][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.09-02.55.09:778][  0]LogInit: High frequency timer resolution =3.914065 MHz
+[2016.01.09-02.55.09:778][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2016.01.09-02.55.09:778][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.09-02.55.09:778][  0]LogMemory: Process Physical Memory: 55.73 MB used, 55.73 MB peak
+[2016.01.09-02.55.09:778][  0]LogMemory: Process Virtual Memory: 56.74 MB used, 56.74 MB peak
+[2016.01.09-02.55.09:778][  0]LogMemory: Physical Memory: 3687.64 MB used, 32720.44 MB total
+[2016.01.09-02.55.09:778][  0]LogMemory: Virtual Memory: 382.46 MB used, 134217728.00 MB total
+[2016.01.09-02.55.09:914][  0]LogTextLocalizationManager: No specific translations for ('en-AU') exist, so ('en') translations will be used.
+[2016.01.09-02.55.10:184][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980 Ti (Feature Level 11_0)
+[2016.01.09-02.55.10:184][  0]LogD3D11RHI: Adapter has 6048MB of dedicated video memory, 0MB of dedicated system memory, and 16360MB of shared system memory, 1 output[s]
+[2016.01.09-02.55.10:206][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 980 Ti (Feature Level 11_0)
+[2016.01.09-02.55.10:206][  0]LogD3D11RHI: Adapter has 6048MB of dedicated video memory, 0MB of dedicated system memory, and 16360MB of shared system memory, 0 output[s]
+[2016.01.09-02.55.10:208][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.09-02.55.10:208][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 16360MB of shared system memory, 0 output[s]
+[2016.01.09-02.55.10:208][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.09-02.55.10:212][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.09-02.55.10:212][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.09-02.55.10:223][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.09-02.55.10:237][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (D:/Program Files/GIT/github/UE4Projects/GroupProject/Intermediate/Shaders/WorkingDirectory/8972/).
+[2016.01.09-02.55.10:237][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/NewPC/AppData/Local/Temp/UnrealShaderWorkingDir/3DE5A0844E779E97798C36B59455B526/'.
+[2016.01.09-02.55.10:237][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.09-02.55.10:828][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.09-02.55.10:831][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.09-02.55.10:834][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.09-02.55.10:838][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.09-02.55.10:841][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.09-02.55.10:843][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.09-02.55.10:844][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.09-02.55.10:846][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.09-02.55.10:848][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.09-02.55.10:850][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.09-02.55.10:852][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.09-02.55.10:857][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.01.09-02.55.10:857][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.09-02.55.10:857][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.09-02.55.10:872][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.09-02.55.10:874][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.09-02.55.10:876][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.09-02.55.10:879][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.09-02.55.10:879][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.09-02.55.10:933][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.09-02.55.10:963][  0]LogDerivedDataCache: Loaded boot cache 0.03s 41MB C:/Users/NewPC/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.09-02.55.10:963][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/NewPC/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.01.09-02.55.10:963][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Program Files/GIT/github/UE4Projects/GroupProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.09-02.55.10:963][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.09-02.55.10:963][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Program Files/GIT/github/UE4Projects/GroupProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.09-02.55.10:963][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.09-02.55.11:003][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.09-02.55.11:014][  0]LogDerivedDataCache: Using Local data cache path C:/Users/NewPC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.09-02.55.11:145][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.09-02.55.11:147][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.09-02.55.11:230][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.09-02.55.11:230][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.09-02.55.11:372][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.09-02.55.11:862][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.09-02.55.11:946][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2016.01.09-02.55.12:070][  0]SourceControl: Info Source control is disabled
+[2016.01.09-02.55.12:070][  0]SourceControl: Info Source control is disabled
+[2016.01.09-02.55.12:077][  0]SourceControl: Info Source control is disabled
+[2016.01.09-02.55.12:088][  0]SourceControl: Info Source control is disabled
+[2016.01.09-02.55.12:252][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.01.09-02.55.12:252][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.01.09-02.55.12:298][  0]LogEngine: Initializing Engine...
+[2016.01.09-02.55.12:300][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.09-02.55.12:301][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.09-02.55.12:376][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.09-02.55.12:387][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.01.09-02.55.12:451][  0]LogInit: FAudioDevice initialized.
+[2016.01.09-02.55.12:466][  0]LogDerivedDataCache: Saved boot cache 0.01s 41MB C:/Users/NewPC/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.09-02.55.12:469][  0]LogInit: Texture streaming: Enabled
+[2016.01.09-02.55.12:473][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.09-02.55.12:473][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2016.01.09-02.55.12:473][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId c7bf1d8b40c7a484fa4816a5eb33937f|aeaa3af4045243359e0d8c4eedc51930|0e0e5735-b15e-448e-8a5a-22d7194580fe
+[2016.01.09-02.55.12:473][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.09-02.55.12:482][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.09-02.55.12:496][  0]LogInit: Transaction tracking system initialized
+[2016.01.09-02.55.12:515][  0]BlueprintLog: New page: Editor Load
+[2016.01.09-02.55.12:581][  0]LocalizationService: Info Localization service is disabled
+[2016.01.09-02.55.12:633][  0]LogConsoleResponse:Display: 
+[2016.01.09-02.55.12:716][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.09-02.55.12:755][  0]LogFileCache: Scanning file cache for directory 'D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/' took 0.01s
+[2016.01.09-02.55.12:756][  0]SourceControl: Info Source control is disabled
+[2016.01.09-02.55.12:756][  0]Cmd: MAP LOAD FILE="D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Maps/TestingMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.09-02.55.12:756][  0]LightingResults: New page: Lighting Build
+[2016.01.09-02.55.12:758][  0]MapCheck: New page: Map Check
+[2016.01.09-02.55.12:758][  0]LightingResults: New page: Lighting Build
+[2016.01.09-02.55.12:766][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CA55253B00
+[2016.01.09-02.55.12:933][  0]LogAIModule: Creating AISystem for world TestingMap
+[2016.01.09-02.55.12:936][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.09-02.55.12:936][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.09-02.55.12:960][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 23.499ms to complete.
+[2016.01.09-02.55.12:960][  0]LogFileHelpers: Loading map 'TestingMap' took 0.205
+[2016.01.09-02.55.13:039][  0]LogCollectionManager: Loaded 0 collections in 0.001406 seconds
+[2016.01.09-02.55.13:075][  0]LogFileCache: Scanning file cache for directory 'D:/Program Files/GIT/github/UE4Projects/GroupProject/Saved/Collections/' took 0.01s
+[2016.01.09-02.55.13:075][  0]LogFileCache: Scanning file cache for directory 'D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Developers/NewPC/Collections/' took 0.01s
+[2016.01.09-02.55.13:075][  0]LogFileCache: Scanning file cache for directory 'D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Collections/' took 0.01s
+[2016.01.09-02.55.13:075][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2016.01.09-02.55.13:081][  0]LogContentBrowser: Native class hierarchy populated in 0.0049 seconds. Added 1893 classes and 338 folders.
+[2016.01.09-02.55.13:086][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.01.09-02.55.13:114][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.01.09-02.55.13:117][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2016.01.09-02.55.13:150][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.09-02.55.13:153][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.09-02.55.13:174][  0]LogLoad: Full Startup: 3.77 seconds (BP compile: 0.03 seconds)
+[2016.01.09-02.55.13:185][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.09-02.55.13:223][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.01.09-02.55.13:349][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2016.01.09-02.55.13:452][  2]LogAssetRegistry: Asset discovery search completed in 1.5161 seconds
+[2016.01.09-02.55.13:452][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.09-02.55.13:452][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2016.01.09-02.55.20:122][228]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.09-02.55.20:473][228]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 107 classes and 0 folders.
+[2016.01.09-02.55.30:167][462]BlueprintLog: New page: Compile TestingMap
+[2016.01.09-02.55.30:230][462]BlueprintEditorCompileResults: Info [0020.83] Compile of TestingMap successful! [in 63 ms]
+[2016.01.09-02.55.31:249][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestingMap" FILE="D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Maps/TestingMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.09-02.55.31:323][497]LogSavePackage: Save=49.684917ms
+[2016.01.09-02.55.31:323][497]LogSavePackage: Moving 'D:/Program Files/GIT/github/UE4Projects/GroupProject/Saved/TestingMap4C93AD574FBBFB3566F98AA4D14E139A.tmp' to 'D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Maps/TestingMap.umap'
+[2016.01.09-02.55.31:324][497]LogSavePackage: Total save time: 54.755352ms
+[2016.01.09-02.55.31:324][497]LogSavePackage:Display: Finished SavePackage D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Maps/TestingMap.umap
+[2016.01.09-02.55.31:338][497]LogFileHelpers: Saving map 'TestingMap' took 0.122
+[2016.01.09-02.55.34:686][694]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-02.55.34:686][694]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.09-02.55.34:687][694]PIE: New page: PIE session: TestingMap (10 Jan 2016 12:55:34 am)
+[2016.01.09-02.55.34:687][694]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestingMap
+[2016.01.09-02.55.34:689][694]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002131s)
+[2016.01.09-02.55.34:689][694]LogAIModule: Creating AISystem for world TestingMap
+[2016.01.09-02.55.34:689][694]LogPlayLevel: PIE: World Init took: (0.000416s)
+[2016.01.09-02.55.34:689][694]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestingMap.TestingMap to /Game/Maps/UEDPIE_0_TestingMap.TestingMap (0.002667s)
+[2016.01.09-02.55.34:714][694]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.01.09-02.55.34:748][694]LogInit: FAudioDevice initialized.
+[2016.01.09-02.55.34:789][694]LogWorld: Game class is 'TestingGameMode_C'
+[2016.01.09-02.55.34:791][694]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestingMap.TestingMap up for play (max tick rate 0) at 2016.01.09-13.55.34
+[2016.01.09-02.55.34:791][694]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-02.55.34:791][694]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-02.55.34:791][694]LogWorld: Bringing up level for play took: 0.001313
+[2016.01.09-02.55.34:792][694]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_0.StaticMesh)
+[2016.01.09-02.55.34:792][694]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_0.StaticMesh1)
+[2016.01.09-02.55.34:792][694]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_0.StaticMesh2)
+[2016.01.09-02.55.34:792][694]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_0.StaticMesh3)
+[2016.01.09-02.55.34:793][694]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_1.StaticMesh)
+[2016.01.09-02.55.34:793][694]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_1.StaticMesh1)
+[2016.01.09-02.55.34:794][694]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_1.StaticMesh2)
+[2016.01.09-02.55.34:794][694]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_1.StaticMesh3)
+[2016.01.09-02.55.34:795][694]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_2.StaticMesh)
+[2016.01.09-02.55.34:795][694]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_2.StaticMesh1)
+[2016.01.09-02.55.34:795][694]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_2.StaticMesh2)
+[2016.01.09-02.55.34:795][694]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_2.StaticMesh3)
+[2016.01.09-02.55.34:795][694]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestingMap -0.358
+[2016.01.09-02.55.34:795][694]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-02.55.36:570][900]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-02.55.36:602][900]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-02.55.36:630][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CA4B46D1C0
+[2016.01.09-02.55.49:897][976]BlueprintLog: New page: Compile TestingMap
+[2016.01.09-02.55.49:950][976]BlueprintEditorCompileResults: Info [0040.55] Compile of TestingMap successful! [in 52 ms]
+[2016.01.09-02.55.50:947][ 81]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestingMap" FILE="D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Maps/TestingMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.09-02.55.51:025][ 81]LogSavePackage: Save=57.742527ms
+[2016.01.09-02.55.51:025][ 81]LogSavePackage: Moving 'D:/Program Files/GIT/github/UE4Projects/GroupProject/Saved/TestingMap9BD40AB54D5238C05A9981A17B3DBFA0.tmp' to 'D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Maps/TestingMap.umap'
+[2016.01.09-02.55.51:027][ 81]LogSavePackage: Total save time: 61.263163ms
+[2016.01.09-02.55.51:027][ 81]LogSavePackage:Display: Finished SavePackage D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Maps/TestingMap.umap
+[2016.01.09-02.55.51:042][ 81]LogFileHelpers: Saving map 'TestingMap' took 0.128
+[2016.01.09-02.55.54:212][309]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-02.55.54:212][309]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-02.55.54:212][309]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-02.55.54:212][309]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-02.56.06:738][651]BlueprintLog: New page: Compile Car
+[2016.01.09-02.56.06:801][651]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-02.56.06:801][651]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-02.56.06:801][651]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-02.56.06:801][651]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-02.56.06:802][651]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-02.56.06:802][651]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-02.56.06:802][651]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-02.56.06:802][651]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-02.56.06:802][651]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-02.56.06:802][651]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-02.56.06:802][651]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-02.56.06:802][651]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-02.56.06:848][651]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CA7E02E7A0
+[2016.01.09-02.56.06:852][651]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-02.56.06:852][651]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-02.56.06:852][651]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-02.56.06:852][651]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-02.56.06:852][651]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-02.56.06:852][651]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-02.56.06:852][651]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-02.56.06:852][651]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-02.56.06:853][651]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-02.56.06:853][651]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-02.56.06:853][651]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-02.56.06:853][651]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-02.56.06:856][651]BlueprintEditorCompileResults: Info [0057.46] Compile of Car successful! [in 117 ms]
+[2016.01.09-02.56.07:930][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Car" FILE="D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Blueprints/Car.uasset" SILENT=true
+[2016.01.09-02.56.08:158][689]LogSavePackage: Save=223.630676ms
+[2016.01.09-02.56.08:158][689]LogSavePackage: Moving 'D:/Program Files/GIT/github/UE4Projects/GroupProject/Saved/Car18A2169F409B1E348F305AACC682F8A1.tmp' to 'D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Blueprints/Car.uasset'
+[2016.01.09-02.56.08:159][689]LogSavePackage: Total save time: 226.424702ms
+[2016.01.09-02.56.08:159][689]LogSavePackage:Display: Finished SavePackage D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Blueprints/Car.uasset
+[2016.01.09-02.56.12:831][974]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2016.01.09-02.56.19:053][401]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.01.09-02.56.20:282][546]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2016.01.09-02.56.26:746][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestingMap" FILE="D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Maps/TestingMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.09-02.56.26:818][120]LogSavePackage: Save=52.246704ms
+[2016.01.09-02.56.26:818][120]LogSavePackage: Moving 'D:/Program Files/GIT/github/UE4Projects/GroupProject/Saved/TestingMap324491A4445E0E45F57768B8F27532E2.tmp' to 'D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Maps/TestingMap.umap'
+[2016.01.09-02.56.26:819][120]LogSavePackage: Total save time: 55.232603ms
+[2016.01.09-02.56.26:819][120]LogSavePackage:Display: Finished SavePackage D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Maps/TestingMap.umap
+[2016.01.09-02.56.26:840][120]LogFileHelpers: Saving map 'TestingMap' took 0.125
+[2016.01.09-02.56.28:425][275]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-02.56.28:425][275]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.09-02.56.28:425][275]PIE: New page: PIE session: TestingMap (10 Jan 2016 12:56:28 am)
+[2016.01.09-02.56.28:425][275]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestingMap
+[2016.01.09-02.56.28:427][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001811s)
+[2016.01.09-02.56.28:427][275]LogAIModule: Creating AISystem for world TestingMap
+[2016.01.09-02.56.28:428][275]LogPlayLevel: PIE: World Init took: (0.000399s)
+[2016.01.09-02.56.28:428][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestingMap.TestingMap to /Game/Maps/UEDPIE_0_TestingMap.TestingMap (0.002324s)
+[2016.01.09-02.56.28:458][275]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.01.09-02.56.28:489][275]LogInit: FAudioDevice initialized.
+[2016.01.09-02.56.28:516][275]LogWorld: Game class is 'TestingGameMode_C'
+[2016.01.09-02.56.28:518][275]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestingMap.TestingMap up for play (max tick rate 0) at 2016.01.09-13.56.28
+[2016.01.09-02.56.28:518][275]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-02.56.28:518][275]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-02.56.28:518][275]LogWorld: Bringing up level for play took: 0.001168
+[2016.01.09-02.56.28:519][275]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_24.StaticMesh)
+[2016.01.09-02.56.28:519][275]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_24.StaticMesh1)
+[2016.01.09-02.56.28:519][275]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_24.StaticMesh2)
+[2016.01.09-02.56.28:519][275]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_24.StaticMesh3)
+[2016.01.09-02.56.28:520][275]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_25.StaticMesh)
+[2016.01.09-02.56.28:520][275]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_25.StaticMesh1)
+[2016.01.09-02.56.28:520][275]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_25.StaticMesh2)
+[2016.01.09-02.56.28:520][275]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_25.StaticMesh3)
+[2016.01.09-02.56.28:522][275]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_26.StaticMesh)
+[2016.01.09-02.56.28:522][275]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_26.StaticMesh1)
+[2016.01.09-02.56.28:522][275]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_26.StaticMesh2)
+[2016.01.09-02.56.28:522][275]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_26.StaticMesh3)
+[2016.01.09-02.56.28:523][275]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_27.StaticMesh)
+[2016.01.09-02.56.28:523][275]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_27.StaticMesh1)
+[2016.01.09-02.56.28:523][275]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_27.StaticMesh2)
+[2016.01.09-02.56.28:523][275]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_27.StaticMesh3)
+[2016.01.09-02.56.28:524][275]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-660.000 Y=300.437 Z=232.001] for [Car_C]
+[2016.01.09-02.56.28:524][275]LogSpawn:Warning: SpawnActor failed because the spawned actor IsPendingKill
+[2016.01.09-02.56.28:524][275]LogGameMode:Warning: Couldn't spawn Pawn of type Car_C at PlayerStart
+[2016.01.09-02.56.28:524][275]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestingMap -0.63
+[2016.01.09-02.56.28:524][275]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-02.56.37:678][361]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-02.56.37:711][361]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-02.56.37:730][361]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CA067BD760
+[2016.01.09-02.56.42:151][701]BlueprintLog: New page: Compile Car
+[2016.01.09-02.56.42:223][701]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-02.56.42:223][701]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-02.56.42:223][701]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-02.56.42:223][701]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-02.56.42:224][701]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-02.56.42:224][701]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-02.56.42:224][701]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-02.56.42:224][701]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-02.56.42:225][701]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-02.56.42:225][701]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-02.56.42:225][701]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-02.56.42:225][701]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-02.56.42:276][701]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-02.56.42:276][701]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-02.56.42:277][701]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-02.56.42:277][701]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-02.56.42:277][701]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-02.56.42:277][701]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-02.56.42:277][701]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-02.56.42:277][701]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-02.56.42:278][701]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-02.56.42:278][701]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-02.56.42:278][701]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-02.56.42:278][701]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-02.56.42:282][701]BlueprintEditorCompileResults: Info [0092.88] Compile of Car successful! [in 130 ms]
+[2016.01.09-02.56.43:167][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Car" FILE="D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Blueprints/Car.uasset" SILENT=true
+[2016.01.09-02.56.43:389][795]LogSavePackage: Save=218.891861ms
+[2016.01.09-02.56.43:389][795]LogSavePackage: Moving 'D:/Program Files/GIT/github/UE4Projects/GroupProject/Saved/CarF409E2674CC63A326D6956BF09487DA9.tmp' to 'D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Blueprints/Car.uasset'
+[2016.01.09-02.56.43:390][795]LogSavePackage: Total save time: 221.189480ms
+[2016.01.09-02.56.43:390][795]LogSavePackage:Display: Finished SavePackage D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Blueprints/Car.uasset
+[2016.01.09-02.56.56:788][628]BlueprintLog: New page: Compile TestingMap
+[2016.01.09-02.56.56:856][628]BlueprintEditorCompileResults: Info [0107.46] Compile of TestingMap successful! [in 68 ms]
+[2016.01.09-02.56.58:556][815]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestingMap" FILE="D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Maps/TestingMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.01.09-02.56.58:639][815]LogSavePackage: Save=49.159122ms
+[2016.01.09-02.56.58:639][815]LogSavePackage: Moving 'D:/Program Files/GIT/github/UE4Projects/GroupProject/Saved/TestingMapCEFFF9A14DD5066EB27A649844EC53E7.tmp' to 'D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Maps/TestingMap.umap'
+[2016.01.09-02.56.58:640][815]LogSavePackage: Total save time: 54.328170ms
+[2016.01.09-02.56.58:640][815]LogSavePackage:Display: Finished SavePackage D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Maps/TestingMap.umap
+[2016.01.09-02.56.58:654][815]LogFileHelpers: Saving map 'TestingMap' took 0.139
+[2016.01.09-02.57.03:143][120]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-02.57.03:143][120]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.09-02.57.03:143][120]PIE: New page: PIE session: TestingMap (10 Jan 2016 12:57:03 am)
+[2016.01.09-02.57.03:143][120]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestingMap
+[2016.01.09-02.57.03:145][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002022s)
+[2016.01.09-02.57.03:146][120]LogAIModule: Creating AISystem for world TestingMap
+[2016.01.09-02.57.03:146][120]LogPlayLevel: PIE: World Init took: (0.000424s)
+[2016.01.09-02.57.03:146][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestingMap.TestingMap to /Game/Maps/UEDPIE_0_TestingMap.TestingMap (0.002563s)
+[2016.01.09-02.57.03:181][120]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.01.09-02.57.03:205][120]LogInit: FAudioDevice initialized.
+[2016.01.09-02.57.03:235][120]LogWorld: Game class is 'TestingGameMode_C'
+[2016.01.09-02.57.03:237][120]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestingMap.TestingMap up for play (max tick rate 0) at 2016.01.09-13.57.03
+[2016.01.09-02.57.03:237][120]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-02.57.03:237][120]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-02.57.03:237][120]LogWorld: Bringing up level for play took: 0.001124
+[2016.01.09-02.57.03:238][120]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_24.StaticMesh)
+[2016.01.09-02.57.03:238][120]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_24.StaticMesh1)
+[2016.01.09-02.57.03:238][120]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_24.StaticMesh2)
+[2016.01.09-02.57.03:238][120]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_24.StaticMesh3)
+[2016.01.09-02.57.03:239][120]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_25.StaticMesh)
+[2016.01.09-02.57.03:239][120]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_25.StaticMesh1)
+[2016.01.09-02.57.03:239][120]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_25.StaticMesh2)
+[2016.01.09-02.57.03:239][120]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_0_TestingMap.TestingMap:PersistentLevel.Car_C_25.StaticMesh3)
+[2016.01.09-02.57.03:239][120]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestingMap 0.086
+[2016.01.09-02.57.03:239][120]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-02.57.25:779][818]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-02.57.25:814][818]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-02.57.25:832][818]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CA13897B00
+[2016.01.09-02.57.36:609][835]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-02.57.36:609][835]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-02.57.36:609][835]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-02.57.36:609][835]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-02.57.36:610][835]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-02.57.36:610][835]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-02.57.36:610][835]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-02.57.36:610][835]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-02.57.36:610][835]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-02.57.36:610][835]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-02.57.36:610][835]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-02.57.36:610][835]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-02.57.36:611][835]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-02.57.36:611][835]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-02.57.36:611][835]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-02.57.36:611][835]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-02.57.36:611][835]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-02.57.36:611][835]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-02.57.36:611][835]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-02.57.36:611][835]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-02.57.36:611][835]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-02.57.36:611][835]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-02.57.36:611][835]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-02.57.36:611][835]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-02.57.37:567][920]BlueprintLog: New page: Compile Car
+[2016.01.09-02.57.37:640][920]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-02.57.37:640][920]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-02.57.37:640][920]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-02.57.37:640][920]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-02.57.37:641][920]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-02.57.37:641][920]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-02.57.37:641][920]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-02.57.37:641][920]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-02.57.37:642][920]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-02.57.37:642][920]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-02.57.37:642][920]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-02.57.37:642][920]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-02.57.37:692][920]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-02.57.37:692][920]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-02.57.37:692][920]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-02.57.37:692][920]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-02.57.37:692][920]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-02.57.37:692][920]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-02.57.37:692][920]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-02.57.37:692][920]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-02.57.37:693][920]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-02.57.37:693][920]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-02.57.37:693][920]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-02.57.37:693][920]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-02.57.37:698][920]BlueprintEditorCompileResults: Info [0148.30] Compile of Car successful! [in 130 ms]
+[2016.01.09-02.57.38:630][ 20]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Car" FILE="D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Blueprints/Car.uasset" SILENT=true
+[2016.01.09-02.57.38:848][ 20]LogSavePackage: Save=213.732269ms
+[2016.01.09-02.57.38:848][ 20]LogSavePackage: Moving 'D:/Program Files/GIT/github/UE4Projects/GroupProject/Saved/Car1C155C1749CF80742444A589B0362141.tmp' to 'D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Blueprints/Car.uasset'
+[2016.01.09-02.57.38:849][ 20]LogSavePackage: Total save time: 218.901575ms
+[2016.01.09-02.57.38:849][ 20]LogSavePackage:Display: Finished SavePackage D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Blueprints/Car.uasset
+[2016.01.09-03.07.21:861][578]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestingMap' took 0.033
+[2016.01.09-03.09.36:901][  7]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-03.09.36:901][  7]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.09-03.09.36:904][  7]PIE: New page: PIE session: TestingMap (10 Jan 2016 1:09:36 am)
+[2016.01.09-03.09.36:904][  7]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_TestingMap
+[2016.01.09-03.09.36:907][  7]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003234s)
+[2016.01.09-03.09.36:908][  7]LogAIModule: Creating AISystem for world TestingMap
+[2016.01.09-03.09.36:908][  7]LogPlayLevel: PIE: World Init took: (0.000735s)
+[2016.01.09-03.09.36:908][  7]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestingMap.TestingMap to /Game/Maps/UEDPIE_1_TestingMap.TestingMap (0.004153s)
+[2016.01.09-03.09.36:939][  7]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.01.09-03.09.36:962][  7]LogInit: FAudioDevice initialized.
+[2016.01.09-03.09.36:997][  7]LogWorld: Game class is 'TestingGameMode_C'
+[2016.01.09-03.09.36:999][  7]LogWorld: Bringing World /Game/Maps/UEDPIE_1_TestingMap.TestingMap up for play (max tick rate 0) at 2016.01.09-14.09.36
+[2016.01.09-03.09.36:999][  7]LogActor:Warning: GameSession /Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-03.09.36:999][  7]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-03.09.36:999][  7]LogWorld: Bringing up level for play took: 0.001406
+[2016.01.09-03.09.37:002][  7]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.01.09-03.09.37:003][  7]LogInit: WinSock: I am DESKTOP-O1OB1PS (10.1.1.10:0)
+[2016.01.09-03.09.37:003][  7]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2016.01.09-03.09.37:004][  7]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_24.StaticMesh)
+[2016.01.09-03.09.37:004][  7]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_24.StaticMesh1)
+[2016.01.09-03.09.37:004][  7]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_24.StaticMesh2)
+[2016.01.09-03.09.37:004][  7]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_24.StaticMesh3)
+[2016.01.09-03.09.37:005][  7]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_25.StaticMesh)
+[2016.01.09-03.09.37:005][  7]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_25.StaticMesh1)
+[2016.01.09-03.09.37:005][  7]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_25.StaticMesh2)
+[2016.01.09-03.09.37:005][  7]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_25.StaticMesh3)
+[2016.01.09-03.09.37:006][  7]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_TestingMap -0.148
+[2016.01.09-03.09.37:007][  7]PIE: New page: PIE session: TestingMap (10 Jan 2016 1:09:37 am)
+[2016.01.09-03.09.37:044][  7]LogNet: Browse: 127.0.0.1//Game/Maps/TestingMap
+[2016.01.09-03.09.37:044][  7]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.09-03.09.37:044][  7]LogNet: Game client on port 7777, rate 10000
+[2016.01.09-03.09.37:044][  7]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2758231, ProjectName: groupproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 2415194616
+[2016.01.09-03.09.37:055][  7]PIE: Info Play in editor start time for /Game/Maps/TestingMap -0.099
+[2016.01.09-03.09.37:056][  7]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-03.09.37:056][  7]LogNet: NotifyAcceptingConnection: Server TestingMap accept
+[2016.01.09-03.09.37:056][  7]LogNet: Open TestingMap 01/09/16 14:09:37 127.0.0.1
+[2016.01.09-03.09.37:056][  7]LogNet: Added client connection.  Remote address = 127.0.0.1:61207
+[2016.01.09-03.09.37:057][  7]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_TestingMap.TestingMap: Accepted
+[2016.01.09-03.09.37:057][  7]LogNet: Remote platform little endian=1
+[2016.01.09-03.09.37:057][  7]LogNet: This platform little endian=1
+[2016.01.09-03.09.37:057][  7]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2758231, ProjectName: groupproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 2415194616
+[2016.01.09-03.09.37:079][  8]LogNet: Login request: /Game/Maps/TestingMap userId: Invalid
+[2016.01.09-03.09.37:080][  8]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_TestingMap, Game: /Game/GameMode/TestingGameMode.TestingGameMode_C)
+[2016.01.09-03.09.37:104][  8]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_TestingMap?game=/Game/GameMode/TestingGameMode.TestingGameMode_C
+[2016.01.09-03.09.37:124][  8]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CA131EBD80
+[2016.01.09-03.09.37:129][  8]Cmd: MEM
+[2016.01.09-03.09.37:148][  8]LogMemory: Platform Memory Stats for Windows
+[2016.01.09-03.09.37:148][  8]LogMemory: Process Physical Memory: 875.30 MB used, 875.30 MB peak
+[2016.01.09-03.09.37:148][  8]LogMemory: Process Virtual Memory: 1569.87 MB used, 1569.89 MB peak
+[2016.01.09-03.09.37:148][  8]LogMemory: Physical Memory: 4224.60 MB used, 32720.44 MB total
+[2016.01.09-03.09.37:148][  8]LogMemory: Virtual Memory: 2324.93 MB used, 134217728.00 MB total
+[2016.01.09-03.09.37:148][  8]LogMemory: 
+[2016.01.09-03.09.37:148][  8]Allocator Stats for TBB: (not implemented)
+[2016.01.09-03.09.37:148][  8]LogLinker: Can't find file for asset '/Game/Maps/UEDPIE_1_TestingMap' while loading NULL.
+[2016.01.09-03.09.37:152][  8]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/TestingMap.TestingMap to /Game/Maps/UEDPIE_2_TestingMap.TestingMap. OwningWorld: None
+[2016.01.09-03.09.37:152][  8]LogAIModule: Creating AISystem for world TestingMap
+[2016.01.09-03.09.37:154][  8]LogWorld: Bringing World /Game/Maps/UEDPIE_2_TestingMap.TestingMap up for play (max tick rate 0) at 2016.01.09-14.09.37
+[2016.01.09-03.09.37:155][  8]LogWorld: Bringing up level for play took: 0.001547
+[2016.01.09-03.09.37:162][  9]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:19155).
+[2016.01.09-03.09.37:163][  9]LogNet: Client netspeed is 10000
+[2016.01.09-03.09.37:163][  9]LogNet: Join request: /Game/Maps/TestingMap?SplitscreenCount=1
+[2016.01.09-03.09.37:165][  9]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_26.StaticMesh)
+[2016.01.09-03.09.37:165][  9]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_26.StaticMesh1)
+[2016.01.09-03.09.37:165][  9]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_26.StaticMesh2)
+[2016.01.09-03.09.37:165][  9]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_26.StaticMesh3)
+[2016.01.09-03.09.37:165][  9]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-660.000 Y=-33.859 Z=232.001] for [Car_C]
+[2016.01.09-03.09.37:165][  9]LogSpawn:Warning: SpawnActor failed because the spawned actor IsPendingKill
+[2016.01.09-03.09.37:165][  9]LogGameMode:Warning: Couldn't spawn Pawn of type Car_C at PlayerStart
+[2016.01.09-03.09.37:166][  9]LogNet: Join succeeded: 267
+[2016.01.09-03.09.37:196][ 10]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_27.StaticMesh)
+[2016.01.09-03.09.37:196][ 10]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_27.StaticMesh1)
+[2016.01.09-03.09.37:196][ 10]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_27.StaticMesh2)
+[2016.01.09-03.09.37:196][ 10]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_27.StaticMesh3)
+[2016.01.09-03.09.37:197][ 10]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_28.StaticMesh)
+[2016.01.09-03.09.37:197][ 10]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_28.StaticMesh1)
+[2016.01.09-03.09.37:197][ 10]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_28.StaticMesh2)
+[2016.01.09-03.09.37:197][ 10]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_28.StaticMesh3)
+[2016.01.09-03.09.37:226][ 11]LogNet: Creating child connection with IpConnection_1 parent
+[2016.01.09-03.09.37:226][ 11]LogNet: JOINSPLIT: Join request: URL=/Game/Maps/TestingMap?Name=Player?SplitscreenCount=2
+[2016.01.09-03.09.37:227][ 11]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_29.StaticMesh)
+[2016.01.09-03.09.37:227][ 11]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_29.StaticMesh1)
+[2016.01.09-03.09.37:227][ 11]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_29.StaticMesh2)
+[2016.01.09-03.09.37:227][ 11]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_29.StaticMesh3)
+[2016.01.09-03.09.37:227][ 11]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-660.000 Y=-33.859 Z=232.001] for [Car_C]
+[2016.01.09-03.09.37:227][ 11]LogSpawn:Warning: SpawnActor failed because the spawned actor IsPendingKill
+[2016.01.09-03.09.37:227][ 11]LogGameMode:Warning: Couldn't spawn Pawn of type Car_C at PlayerStart
+[2016.01.09-03.09.37:227][ 11]LogNet: JOINSPLIT: Succeeded: Player PlayerId: INVALID
+[2016.01.09-03.09.37:228][ 11]LogNet: Creating child connection with IpConnection_0 parent
+[2016.01.09-03.09.40:420][125]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-03.09.40:482][125]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.01.09-03.09.40:484][125]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.01.09-03.09.40:515][125]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-03.09.40:530][125]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.01.09-03.09.40:531][125]LogNet: UNetConnection::Close: Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, PC: None, Owner: None, Channels: 11, RemoteAddr: 127.0.0.1:61207, Time: 2016.01.09-03.09.40
+[2016.01.09-03.09.40:531][125]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_1
+[2016.01.09-03.09.40:531][125]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.01.09-03.09.40:531][125]LogNet: UNetConnection::Close: Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, PC: None, Owner: None, Channels: 14, RemoteAddr: 127.0.0.1:7777, Time: 2016.01.09-03.09.40
+[2016.01.09-03.09.40:531][125]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_0
+[2016.01.09-03.09.40:536][125]LogExit: GameNetDriver None shut down
+[2016.01.09-03.09.40:536][125]LogExit: GameNetDriver None shut down
+[2016.01.09-03.09.40:536][125]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CA153EC2C0
+[2016.01.09-03.09.40:556][126]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CA01543E20
+[2016.01.09-03.09.56:398][224]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-03.09.56:398][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.09-03.09.56:401][224]PIE: New page: PIE session: TestingMap (10 Jan 2016 1:09:56 am)
+[2016.01.09-03.09.56:401][224]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_TestingMap
+[2016.01.09-03.09.56:405][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003646s)
+[2016.01.09-03.09.56:405][224]LogAIModule: Creating AISystem for world TestingMap
+[2016.01.09-03.09.56:405][224]LogPlayLevel: PIE: World Init took: (0.000469s)
+[2016.01.09-03.09.56:405][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestingMap.TestingMap to /Game/Maps/UEDPIE_1_TestingMap.TestingMap (0.004278s)
+[2016.01.09-03.09.56:432][224]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CA7E0EECA0
+[2016.01.09-03.09.56:432][224]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.01.09-03.09.56:455][224]LogInit: FAudioDevice initialized.
+[2016.01.09-03.09.56:486][224]LogWorld: Game class is 'TestingGameMode_C'
+[2016.01.09-03.09.56:488][224]LogWorld: Bringing World /Game/Maps/UEDPIE_1_TestingMap.TestingMap up for play (max tick rate 0) at 2016.01.09-14.09.56
+[2016.01.09-03.09.56:488][224]LogActor:Warning: GameSession /Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-03.09.56:488][224]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-03.09.56:489][224]LogWorld: Bringing up level for play took: 0.001709
+[2016.01.09-03.09.56:489][224]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.01.09-03.09.56:490][224]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2016.01.09-03.09.56:491][224]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_30.StaticMesh)
+[2016.01.09-03.09.56:491][224]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_30.StaticMesh1)
+[2016.01.09-03.09.56:491][224]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_30.StaticMesh2)
+[2016.01.09-03.09.56:491][224]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_30.StaticMesh3)
+[2016.01.09-03.09.56:492][224]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_31.StaticMesh)
+[2016.01.09-03.09.56:492][224]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_31.StaticMesh1)
+[2016.01.09-03.09.56:492][224]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_31.StaticMesh2)
+[2016.01.09-03.09.56:492][224]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_31.StaticMesh3)
+[2016.01.09-03.09.56:493][224]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_TestingMap -0.661
+[2016.01.09-03.09.56:494][224]PIE: New page: PIE session: TestingMap (10 Jan 2016 1:09:56 am)
+[2016.01.09-03.09.56:527][224]LogNet: Browse: 127.0.0.1//Game/Maps/TestingMap
+[2016.01.09-03.09.56:527][224]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.09-03.09.56:527][224]LogNet: Game client on port 7777, rate 10000
+[2016.01.09-03.09.56:527][224]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2758231, ProjectName: groupproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 2415194616
+[2016.01.09-03.09.56:540][224]PIE: Info Play in editor start time for /Game/Maps/TestingMap -0.613
+[2016.01.09-03.09.56:541][224]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-03.09.56:541][224]LogNet: NotifyAcceptingConnection: Server TestingMap accept
+[2016.01.09-03.09.56:541][224]LogNet: Open TestingMap 01/09/16 14:09:56 127.0.0.1
+[2016.01.09-03.09.56:541][224]LogNet: Added client connection.  Remote address = 127.0.0.1:61208
+[2016.01.09-03.09.56:541][224]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_TestingMap.TestingMap: Accepted
+[2016.01.09-03.09.56:541][224]LogNet: Remote platform little endian=1
+[2016.01.09-03.09.56:541][224]LogNet: This platform little endian=1
+[2016.01.09-03.09.56:541][224]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2758231, ProjectName: groupproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 2415194616
+[2016.01.09-03.09.56:550][225]LogNet: Login request: /Game/Maps/TestingMap userId: Invalid
+[2016.01.09-03.09.56:550][225]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_TestingMap, Game: /Game/GameMode/TestingGameMode.TestingGameMode_C)
+[2016.01.09-03.09.56:588][225]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_TestingMap?game=/Game/GameMode/TestingGameMode.TestingGameMode_C
+[2016.01.09-03.09.56:608][225]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CA64F95300
+[2016.01.09-03.09.56:613][225]Cmd: MEM
+[2016.01.09-03.09.56:633][225]LogMemory: Platform Memory Stats for Windows
+[2016.01.09-03.09.56:633][225]LogMemory: Process Physical Memory: 880.43 MB used, 892.88 MB peak
+[2016.01.09-03.09.56:633][225]LogMemory: Process Virtual Memory: 1613.52 MB used, 1762.46 MB peak
+[2016.01.09-03.09.56:633][225]LogMemory: Physical Memory: 4273.45 MB used, 32720.44 MB total
+[2016.01.09-03.09.56:633][225]LogMemory: Virtual Memory: 2433.88 MB used, 134217728.00 MB total
+[2016.01.09-03.09.56:633][225]LogMemory: 
+[2016.01.09-03.09.56:633][225]Allocator Stats for TBB: (not implemented)
+[2016.01.09-03.09.56:633][225]LogLinker: Can't find file for asset '/Game/Maps/UEDPIE_1_TestingMap' while loading NULL.
+[2016.01.09-03.09.56:635][225]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/TestingMap.TestingMap to /Game/Maps/UEDPIE_2_TestingMap.TestingMap. OwningWorld: None
+[2016.01.09-03.09.56:636][225]LogAIModule: Creating AISystem for world TestingMap
+[2016.01.09-03.09.56:638][225]LogWorld: Bringing World /Game/Maps/UEDPIE_2_TestingMap.TestingMap up for play (max tick rate 0) at 2016.01.09-14.09.56
+[2016.01.09-03.09.56:638][225]LogWorld: Bringing up level for play took: 0.001314
+[2016.01.09-03.09.56:645][226]LogNet: Client netspeed is 10000
+[2016.01.09-03.09.56:645][226]LogNet: Join request: /Game/Maps/TestingMap?SplitscreenCount=1
+[2016.01.09-03.09.56:647][226]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_32.StaticMesh)
+[2016.01.09-03.09.56:647][226]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_32.StaticMesh1)
+[2016.01.09-03.09.56:647][226]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_32.StaticMesh2)
+[2016.01.09-03.09.56:647][226]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_32.StaticMesh3)
+[2016.01.09-03.09.56:647][226]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-660.000 Y=-33.859 Z=232.001] for [Car_C]
+[2016.01.09-03.09.56:648][226]LogSpawn:Warning: SpawnActor failed because the spawned actor IsPendingKill
+[2016.01.09-03.09.56:648][226]LogGameMode:Warning: Couldn't spawn Pawn of type Car_C at PlayerStart
+[2016.01.09-03.09.56:648][226]LogNet: Join succeeded: 271
+[2016.01.09-03.09.56:674][227]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_33.StaticMesh)
+[2016.01.09-03.09.56:674][227]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_33.StaticMesh1)
+[2016.01.09-03.09.56:674][227]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_33.StaticMesh2)
+[2016.01.09-03.09.56:674][227]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_33.StaticMesh3)
+[2016.01.09-03.09.56:675][227]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_34.StaticMesh)
+[2016.01.09-03.09.56:675][227]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_34.StaticMesh1)
+[2016.01.09-03.09.56:675][227]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_34.StaticMesh2)
+[2016.01.09-03.09.56:675][227]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_34.StaticMesh3)
+[2016.01.09-03.09.56:698][228]LogNet: Creating child connection with IpConnection_3 parent
+[2016.01.09-03.09.56:698][228]LogNet: JOINSPLIT: Join request: URL=/Game/Maps/TestingMap?Name=Player?SplitscreenCount=2
+[2016.01.09-03.09.56:699][228]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_35.StaticMesh)
+[2016.01.09-03.09.56:699][228]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_35.StaticMesh1)
+[2016.01.09-03.09.56:699][228]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_35.StaticMesh2)
+[2016.01.09-03.09.56:699][228]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_35.StaticMesh3)
+[2016.01.09-03.09.56:700][228]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-660.000 Y=-33.859 Z=232.001] for [Car_C]
+[2016.01.09-03.09.56:700][228]LogSpawn:Warning: SpawnActor failed because the spawned actor IsPendingKill
+[2016.01.09-03.09.56:700][228]LogGameMode:Warning: Couldn't spawn Pawn of type Car_C at PlayerStart
+[2016.01.09-03.09.56:700][228]LogNet: JOINSPLIT: Succeeded: Player PlayerId: INVALID
+[2016.01.09-03.09.56:702][228]LogNet: Creating child connection with IpConnection_2 parent
+[2016.01.09-03.10.02:745][449]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-03.10.02:776][449]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.01.09-03.10.02:777][449]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.01.09-03.10.02:803][449]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-03.10.02:821][449]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.01.09-03.10.02:821][449]LogNet: UNetConnection::Close: Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:61208, Time: 2016.01.09-03.10.02
+[2016.01.09-03.10.02:821][449]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_3
+[2016.01.09-03.10.02:822][449]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.01.09-03.10.02:822][449]LogNet: UNetConnection::Close: Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.01.09-03.10.02
+[2016.01.09-03.10.02:822][449]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_2
+[2016.01.09-03.10.02:827][449]LogExit: GameNetDriver None shut down
+[2016.01.09-03.10.02:827][449]LogExit: GameNetDriver None shut down
+[2016.01.09-03.10.02:828][449]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CA13897C40
+[2016.01.09-03.10.02:845][450]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CA64F95800
+[2016.01.09-03.10.03:930][542]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-03.10.03:930][542]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.09-03.10.03:933][542]PIE: New page: PIE session: TestingMap (10 Jan 2016 1:10:03 am)
+[2016.01.09-03.10.03:933][542]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_TestingMap
+[2016.01.09-03.10.03:935][542]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002133s)
+[2016.01.09-03.10.03:935][542]LogAIModule: Creating AISystem for world TestingMap
+[2016.01.09-03.10.03:935][542]LogPlayLevel: PIE: World Init took: (0.000434s)
+[2016.01.09-03.10.03:935][542]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestingMap.TestingMap to /Game/Maps/UEDPIE_1_TestingMap.TestingMap (0.002684s)
+[2016.01.09-03.10.03:966][542]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.01.09-03.10.03:989][542]LogInit: FAudioDevice initialized.
+[2016.01.09-03.10.04:021][542]LogWorld: Game class is 'TestingGameMode_C'
+[2016.01.09-03.10.04:023][542]LogWorld: Bringing World /Game/Maps/UEDPIE_1_TestingMap.TestingMap up for play (max tick rate 0) at 2016.01.09-14.10.04
+[2016.01.09-03.10.04:023][542]LogActor:Warning: GameSession /Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-03.10.04:023][542]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-03.10.04:023][542]LogWorld: Bringing up level for play took: 0.001433
+[2016.01.09-03.10.04:024][542]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.01.09-03.10.04:024][542]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 7777
+[2016.01.09-03.10.04:025][542]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_36.StaticMesh)
+[2016.01.09-03.10.04:025][542]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_36.StaticMesh1)
+[2016.01.09-03.10.04:025][542]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_36.StaticMesh2)
+[2016.01.09-03.10.04:025][542]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_36.StaticMesh3)
+[2016.01.09-03.10.04:026][542]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_37.StaticMesh)
+[2016.01.09-03.10.04:026][542]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_37.StaticMesh1)
+[2016.01.09-03.10.04:026][542]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_37.StaticMesh2)
+[2016.01.09-03.10.04:026][542]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_37.StaticMesh3)
+[2016.01.09-03.10.04:027][542]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_TestingMap 0.873
+[2016.01.09-03.10.04:028][542]PIE: New page: PIE session: TestingMap (10 Jan 2016 1:10:04 am)
+[2016.01.09-03.10.04:061][542]LogNet: Browse: 127.0.0.1//Game/Maps/TestingMap
+[2016.01.09-03.10.04:061][542]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.09-03.10.04:062][542]LogNet: Game client on port 7777, rate 10000
+[2016.01.09-03.10.04:062][542]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2758231, ProjectName: groupproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 2415194616
+[2016.01.09-03.10.04:075][542]PIE: Info Play in editor start time for /Game/Maps/TestingMap 0.922
+[2016.01.09-03.10.04:076][542]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-03.10.04:076][542]LogNet: NotifyAcceptingConnection: Server TestingMap accept
+[2016.01.09-03.10.04:076][542]LogNet: Open TestingMap 01/09/16 14:10:04 127.0.0.1
+[2016.01.09-03.10.04:076][542]LogNet: Added client connection.  Remote address = 127.0.0.1:61209
+[2016.01.09-03.10.04:076][542]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_TestingMap.TestingMap: Accepted
+[2016.01.09-03.10.04:076][542]LogNet: Remote platform little endian=1
+[2016.01.09-03.10.04:076][542]LogNet: This platform little endian=1
+[2016.01.09-03.10.04:076][542]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2758231, ProjectName: groupproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 2415194616
+[2016.01.09-03.10.04:086][543]LogNet: Login request: /Game/Maps/TestingMap userId: Invalid
+[2016.01.09-03.10.04:087][543]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_TestingMap, Game: /Game/GameMode/TestingGameMode.TestingGameMode_C)
+[2016.01.09-03.10.04:121][543]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_TestingMap?game=/Game/GameMode/TestingGameMode.TestingGameMode_C
+[2016.01.09-03.10.04:142][543]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CA7FB965C0
+[2016.01.09-03.10.04:147][543]Cmd: MEM
+[2016.01.09-03.10.04:172][543]LogMemory: Platform Memory Stats for Windows
+[2016.01.09-03.10.04:172][543]LogMemory: Process Physical Memory: 887.48 MB used, 892.88 MB peak
+[2016.01.09-03.10.04:172][543]LogMemory: Process Virtual Memory: 1682.90 MB used, 1762.46 MB peak
+[2016.01.09-03.10.04:172][543]LogMemory: Physical Memory: 4304.29 MB used, 32720.44 MB total
+[2016.01.09-03.10.04:172][543]LogMemory: Virtual Memory: 2533.75 MB used, 134217728.00 MB total
+[2016.01.09-03.10.04:172][543]LogMemory: 
+[2016.01.09-03.10.04:172][543]Allocator Stats for TBB: (not implemented)
+[2016.01.09-03.10.04:173][543]LogLinker: Can't find file for asset '/Game/Maps/UEDPIE_1_TestingMap' while loading NULL.
+[2016.01.09-03.10.04:175][543]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/TestingMap.TestingMap to /Game/Maps/UEDPIE_2_TestingMap.TestingMap. OwningWorld: None
+[2016.01.09-03.10.04:175][543]LogAIModule: Creating AISystem for world TestingMap
+[2016.01.09-03.10.04:177][543]LogWorld: Bringing World /Game/Maps/UEDPIE_2_TestingMap.TestingMap up for play (max tick rate 0) at 2016.01.09-14.10.04
+[2016.01.09-03.10.04:177][543]LogWorld: Bringing up level for play took: 0.001003
+[2016.01.09-03.10.04:195][544]LogNet: Client netspeed is 10000
+[2016.01.09-03.10.04:195][544]LogNet: Join request: /Game/Maps/TestingMap?SplitscreenCount=1
+[2016.01.09-03.10.04:197][544]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_38.StaticMesh)
+[2016.01.09-03.10.04:197][544]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_38.StaticMesh1)
+[2016.01.09-03.10.04:197][544]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_38.StaticMesh2)
+[2016.01.09-03.10.04:197][544]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_38.StaticMesh3)
+[2016.01.09-03.10.04:197][544]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-660.000 Y=-33.859 Z=232.001] for [Car_C]
+[2016.01.09-03.10.04:198][544]LogSpawn:Warning: SpawnActor failed because the spawned actor IsPendingKill
+[2016.01.09-03.10.04:198][544]LogGameMode:Warning: Couldn't spawn Pawn of type Car_C at PlayerStart
+[2016.01.09-03.10.04:198][544]LogNet: Join succeeded: 275
+[2016.01.09-03.10.04:214][545]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_39.StaticMesh)
+[2016.01.09-03.10.04:214][545]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_39.StaticMesh1)
+[2016.01.09-03.10.04:214][545]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_39.StaticMesh2)
+[2016.01.09-03.10.04:214][545]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_39.StaticMesh3)
+[2016.01.09-03.10.04:215][545]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_40.StaticMesh)
+[2016.01.09-03.10.04:215][545]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_40.StaticMesh1)
+[2016.01.09-03.10.04:215][545]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_40.StaticMesh2)
+[2016.01.09-03.10.04:215][545]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_40.StaticMesh3)
+[2016.01.09-03.10.04:240][546]LogNet: Creating child connection with IpConnection_5 parent
+[2016.01.09-03.10.04:240][546]LogNet: JOINSPLIT: Join request: URL=/Game/Maps/TestingMap?Name=Player?SplitscreenCount=2
+[2016.01.09-03.10.04:241][546]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_41.StaticMesh)
+[2016.01.09-03.10.04:241][546]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_41.StaticMesh1)
+[2016.01.09-03.10.04:241][546]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_41.StaticMesh2)
+[2016.01.09-03.10.04:241][546]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_41.StaticMesh3)
+[2016.01.09-03.10.04:241][546]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-660.000 Y=-33.859 Z=232.001] for [Car_C]
+[2016.01.09-03.10.04:241][546]LogSpawn:Warning: SpawnActor failed because the spawned actor IsPendingKill
+[2016.01.09-03.10.04:241][546]LogGameMode:Warning: Couldn't spawn Pawn of type Car_C at PlayerStart
+[2016.01.09-03.10.04:242][546]LogNet: JOINSPLIT: Succeeded: Player PlayerId: INVALID
+[2016.01.09-03.10.04:243][546]LogNet: Creating child connection with IpConnection_4 parent
+[2016.01.09-03.10.16:268][875]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-03.10.16:300][875]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.01.09-03.10.16:300][875]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.01.09-03.10.16:327][875]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-03.10.16:343][875]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.01.09-03.10.16:343][875]LogNet: UNetConnection::Close: Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:61209, Time: 2016.01.09-03.10.16
+[2016.01.09-03.10.16:343][875]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_5
+[2016.01.09-03.10.16:343][875]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.01.09-03.10.16:343][875]LogNet: UNetConnection::Close: Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.01.09-03.10.16
+[2016.01.09-03.10.16:343][875]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_4
+[2016.01.09-03.10.16:348][875]LogExit: GameNetDriver None shut down
+[2016.01.09-03.10.16:348][875]LogExit: GameNetDriver None shut down
+[2016.01.09-03.10.16:348][875]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CA0167D4E0
+[2016.01.09-03.10.16:367][876]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CA7FB95E40
+[2016.01.09-03.10.32:894][485]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-03.10.32:894][485]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.09-03.10.32:898][485]PIE: New page: PIE session: TestingMap (10 Jan 2016 1:10:32 am)
+[2016.01.09-03.10.32:898][485]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_TestingMap
+[2016.01.09-03.10.32:900][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002659s)
+[2016.01.09-03.10.32:901][485]LogAIModule: Creating AISystem for world TestingMap
+[2016.01.09-03.10.32:901][485]LogPlayLevel: PIE: World Init took: (0.000479s)
+[2016.01.09-03.10.32:901][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestingMap.TestingMap to /Game/Maps/UEDPIE_1_TestingMap.TestingMap (0.003276s)
+[2016.01.09-03.10.32:929][485]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.01.09-03.10.32:954][485]LogInit: FAudioDevice initialized.
+[2016.01.09-03.10.32:986][485]LogWorld: Game class is 'TestingGameMode_C'
+[2016.01.09-03.10.32:988][485]LogWorld: Bringing World /Game/Maps/UEDPIE_1_TestingMap.TestingMap up for play (max tick rate 0) at 2016.01.09-14.10.32
+[2016.01.09-03.10.32:988][485]LogActor:Warning: GameSession /Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-03.10.32:988][485]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-03.10.32:988][485]LogWorld: Bringing up level for play took: 0.001218
+[2016.01.09-03.10.32:989][485]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.01.09-03.10.32:989][485]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 7777
+[2016.01.09-03.10.32:990][485]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_42.StaticMesh)
+[2016.01.09-03.10.32:990][485]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_42.StaticMesh1)
+[2016.01.09-03.10.32:990][485]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_42.StaticMesh2)
+[2016.01.09-03.10.32:990][485]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_42.StaticMesh3)
+[2016.01.09-03.10.32:991][485]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_43.StaticMesh)
+[2016.01.09-03.10.32:991][485]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_43.StaticMesh1)
+[2016.01.09-03.10.32:991][485]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_43.StaticMesh2)
+[2016.01.09-03.10.32:991][485]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_43.StaticMesh3)
+[2016.01.09-03.10.32:992][485]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_TestingMap -0.162
+[2016.01.09-03.10.32:993][485]PIE: New page: PIE session: TestingMap (10 Jan 2016 1:10:32 am)
+[2016.01.09-03.10.33:025][485]LogNet: Browse: 127.0.0.1//Game/Maps/TestingMap
+[2016.01.09-03.10.33:025][485]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.09-03.10.33:025][485]LogNet: Game client on port 7777, rate 10000
+[2016.01.09-03.10.33:025][485]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2758231, ProjectName: groupproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 2415194616
+[2016.01.09-03.10.33:037][485]PIE: Info Play in editor start time for /Game/Maps/TestingMap -0.116
+[2016.01.09-03.10.33:039][485]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-03.10.33:039][485]LogNet: NotifyAcceptingConnection: Server TestingMap accept
+[2016.01.09-03.10.33:039][485]LogNet: Open TestingMap 01/09/16 14:10:33 127.0.0.1
+[2016.01.09-03.10.33:039][485]LogNet: Added client connection.  Remote address = 127.0.0.1:53143
+[2016.01.09-03.10.33:039][485]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_TestingMap.TestingMap: Accepted
+[2016.01.09-03.10.33:039][485]LogNet: Remote platform little endian=1
+[2016.01.09-03.10.33:039][485]LogNet: This platform little endian=1
+[2016.01.09-03.10.33:039][485]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2758231, ProjectName: groupproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 2415194616
+[2016.01.09-03.10.33:060][486]LogNet: Login request: /Game/Maps/TestingMap userId: Invalid
+[2016.01.09-03.10.33:061][486]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_TestingMap, Game: /Game/GameMode/TestingGameMode.TestingGameMode_C)
+[2016.01.09-03.10.33:088][486]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_TestingMap?game=/Game/GameMode/TestingGameMode.TestingGameMode_C
+[2016.01.09-03.10.33:107][486]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CA06D000E0
+[2016.01.09-03.10.33:110][486]Cmd: MEM
+[2016.01.09-03.10.33:128][486]LogMemory: Platform Memory Stats for Windows
+[2016.01.09-03.10.33:128][486]LogMemory: Process Physical Memory: 882.13 MB used, 892.88 MB peak
+[2016.01.09-03.10.33:128][486]LogMemory: Process Virtual Memory: 1577.26 MB used, 1762.46 MB peak
+[2016.01.09-03.10.33:128][486]LogMemory: Physical Memory: 4282.25 MB used, 32720.44 MB total
+[2016.01.09-03.10.33:128][486]LogMemory: Virtual Memory: 2528.94 MB used, 134217728.00 MB total
+[2016.01.09-03.10.33:128][486]LogMemory: 
+[2016.01.09-03.10.33:128][486]Allocator Stats for TBB: (not implemented)
+[2016.01.09-03.10.33:129][486]LogLinker: Can't find file for asset '/Game/Maps/UEDPIE_1_TestingMap' while loading NULL.
+[2016.01.09-03.10.33:130][486]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/TestingMap.TestingMap to /Game/Maps/UEDPIE_2_TestingMap.TestingMap. OwningWorld: None
+[2016.01.09-03.10.33:131][486]LogAIModule: Creating AISystem for world TestingMap
+[2016.01.09-03.10.33:132][486]LogWorld: Bringing World /Game/Maps/UEDPIE_2_TestingMap.TestingMap up for play (max tick rate 0) at 2016.01.09-14.10.33
+[2016.01.09-03.10.33:133][486]LogWorld: Bringing up level for play took: 0.001003
+[2016.01.09-03.10.33:153][487]LogNet: Client netspeed is 10000
+[2016.01.09-03.10.33:153][487]LogNet: Join request: /Game/Maps/TestingMap?SplitscreenCount=1
+[2016.01.09-03.10.33:154][487]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_44.StaticMesh)
+[2016.01.09-03.10.33:154][487]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_44.StaticMesh1)
+[2016.01.09-03.10.33:154][487]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_44.StaticMesh2)
+[2016.01.09-03.10.33:154][487]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_44.StaticMesh3)
+[2016.01.09-03.10.33:155][487]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-660.000 Y=-33.859 Z=232.001] for [Car_C]
+[2016.01.09-03.10.33:155][487]LogSpawn:Warning: SpawnActor failed because the spawned actor IsPendingKill
+[2016.01.09-03.10.33:155][487]LogGameMode:Warning: Couldn't spawn Pawn of type Car_C at PlayerStart
+[2016.01.09-03.10.33:155][487]LogNet: Join succeeded: 279
+[2016.01.09-03.10.33:170][488]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_45.StaticMesh)
+[2016.01.09-03.10.33:170][488]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_45.StaticMesh1)
+[2016.01.09-03.10.33:170][488]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_45.StaticMesh2)
+[2016.01.09-03.10.33:170][488]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_45.StaticMesh3)
+[2016.01.09-03.10.33:171][488]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_46.StaticMesh)
+[2016.01.09-03.10.33:171][488]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_46.StaticMesh1)
+[2016.01.09-03.10.33:171][488]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_46.StaticMesh2)
+[2016.01.09-03.10.33:171][488]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_46.StaticMesh3)
+[2016.01.09-03.10.33:223][490]LogNet: Creating child connection with IpConnection_7 parent
+[2016.01.09-03.10.33:224][490]LogNet: JOINSPLIT: Join request: URL=/Game/Maps/TestingMap?Name=Player?SplitscreenCount=2
+[2016.01.09-03.10.33:225][490]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_47.StaticMesh)
+[2016.01.09-03.10.33:225][490]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_47.StaticMesh1)
+[2016.01.09-03.10.33:225][490]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_47.StaticMesh2)
+[2016.01.09-03.10.33:225][490]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_47.StaticMesh3)
+[2016.01.09-03.10.33:225][490]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-660.000 Y=-33.859 Z=232.001] for [Car_C]
+[2016.01.09-03.10.33:225][490]LogSpawn:Warning: SpawnActor failed because the spawned actor IsPendingKill
+[2016.01.09-03.10.33:225][490]LogGameMode:Warning: Couldn't spawn Pawn of type Car_C at PlayerStart
+[2016.01.09-03.10.33:225][490]LogNet: JOINSPLIT: Succeeded: Player PlayerId: INVALID
+[2016.01.09-03.10.33:228][490]LogNet: Creating child connection with IpConnection_6 parent
+[2016.01.09-03.11.32:483][580]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-03.11.32:542][580]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.01.09-03.11.32:542][580]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.01.09-03.11.32:568][580]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-03.11.32:585][580]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.01.09-03.11.32:585][580]LogNet: UNetConnection::Close: Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:53143, Time: 2016.01.09-03.11.32
+[2016.01.09-03.11.32:585][580]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_7
+[2016.01.09-03.11.32:585][580]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.01.09-03.11.32:585][580]LogNet: UNetConnection::Close: Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.01.09-03.11.32
+[2016.01.09-03.11.32:585][580]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_6
+[2016.01.09-03.11.32:591][580]LogExit: GameNetDriver None shut down
+[2016.01.09-03.11.32:591][580]LogExit: GameNetDriver None shut down
+[2016.01.09-03.11.32:591][580]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CA07013380
+[2016.01.09-03.11.32:592][580]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CA47D4EF20
+[2016.01.09-03.12.04:938][760]BlueprintLog: New page: Compile Car
+[2016.01.09-03.12.04:997][760]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-03.12.04:997][760]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-03.12.04:997][760]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-03.12.04:997][760]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-03.12.04:998][760]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-03.12.04:998][760]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-03.12.04:998][760]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-03.12.04:998][760]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-03.12.04:998][760]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-03.12.04:998][760]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-03.12.04:998][760]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-03.12.04:998][760]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-03.12.05:043][760]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-03.12.05:043][760]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-03.12.05:043][760]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-03.12.05:043][760]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-03.12.05:044][760]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-03.12.05:044][760]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-03.12.05:044][760]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-03.12.05:044][760]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-03.12.05:044][760]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-03.12.05:044][760]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-03.12.05:044][760]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-03.12.05:044][760]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-03.12.05:047][760]BlueprintEditorCompileResults: Info [1015.65] Compile of Car successful! [in 108 ms]
+[2016.01.09-03.12.06:854][962]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Car" FILE="D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Blueprints/Car.uasset" SILENT=true
+[2016.01.09-03.12.07:075][962]LogSavePackage: Save=211.753006ms
+[2016.01.09-03.12.07:075][962]LogSavePackage: Moving 'D:/Program Files/GIT/github/UE4Projects/GroupProject/Saved/Car2D30D51848D57ACFBA9D08AFB2D5480C.tmp' to 'D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Blueprints/Car.uasset'
+[2016.01.09-03.12.07:076][962]LogSavePackage: Total save time: 221.428104ms
+[2016.01.09-03.12.07:076][962]LogSavePackage:Display: Finished SavePackage D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Blueprints/Car.uasset
+[2016.01.09-03.12.14:824][787]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-03.12.14:824][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.09-03.12.14:827][787]PIE: New page: PIE session: TestingMap (10 Jan 2016 1:12:14 am)
+[2016.01.09-03.12.14:827][787]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_TestingMap
+[2016.01.09-03.12.14:829][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001900s)
+[2016.01.09-03.12.14:829][787]LogAIModule: Creating AISystem for world TestingMap
+[2016.01.09-03.12.14:829][787]LogPlayLevel: PIE: World Init took: (0.000436s)
+[2016.01.09-03.12.14:829][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestingMap.TestingMap to /Game/Maps/UEDPIE_1_TestingMap.TestingMap (0.002448s)
+[2016.01.09-03.12.14:853][787]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2016.01.09-03.12.14:877][787]LogInit: FAudioDevice initialized.
+[2016.01.09-03.12.14:907][787]LogWorld: Game class is 'TestingGameMode_C'
+[2016.01.09-03.12.14:909][787]LogWorld: Bringing World /Game/Maps/UEDPIE_1_TestingMap.TestingMap up for play (max tick rate 0) at 2016.01.09-14.12.14
+[2016.01.09-03.12.14:909][787]LogActor:Warning: GameSession /Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-03.12.14:910][787]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.09-03.12.14:910][787]LogWorld: Bringing up level for play took: 0.001468
+[2016.01.09-03.12.14:910][787]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.01.09-03.12.14:910][787]LogNet: GameNetDriver IpNetDriver_8 IpNetDriver listening on port 7777
+[2016.01.09-03.12.14:911][787]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_24.StaticMesh)
+[2016.01.09-03.12.14:911][787]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_24.StaticMesh1)
+[2016.01.09-03.12.14:911][787]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_24.StaticMesh2)
+[2016.01.09-03.12.14:911][787]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_24.StaticMesh3)
+[2016.01.09-03.12.14:912][787]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_25.StaticMesh)
+[2016.01.09-03.12.14:912][787]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_25.StaticMesh1)
+[2016.01.09-03.12.14:912][787]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_25.StaticMesh2)
+[2016.01.09-03.12.14:912][787]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_25.StaticMesh3)
+[2016.01.09-03.12.14:912][787]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_1_TestingMap -0.241
+[2016.01.09-03.12.14:913][787]PIE: New page: PIE session: TestingMap (10 Jan 2016 1:12:14 am)
+[2016.01.09-03.12.14:948][787]LogNet: Browse: 127.0.0.1//Game/Maps/TestingMap
+[2016.01.09-03.12.14:948][787]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.09-03.12.14:949][787]LogNet: Game client on port 7777, rate 10000
+[2016.01.09-03.12.14:949][787]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2758231, ProjectName: groupproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 2415194616
+[2016.01.09-03.12.14:958][787]PIE: Info Play in editor start time for /Game/Maps/TestingMap -0.195
+[2016.01.09-03.12.14:959][787]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-03.12.14:959][787]LogNet: NotifyAcceptingConnection: Server TestingMap accept
+[2016.01.09-03.12.14:959][787]LogNet: Open TestingMap 01/09/16 14:12:14 127.0.0.1
+[2016.01.09-03.12.14:959][787]LogNet: Added client connection.  Remote address = 127.0.0.1:60127
+[2016.01.09-03.12.14:959][787]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_1_TestingMap.TestingMap: Accepted
+[2016.01.09-03.12.14:959][787]LogNet: Remote platform little endian=1
+[2016.01.09-03.12.14:960][787]LogNet: This platform little endian=1
+[2016.01.09-03.12.14:960][787]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2758231, ProjectName: groupproject, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 2415194616
+[2016.01.09-03.12.14:968][788]LogNet: Login request: /Game/Maps/TestingMap userId: Invalid
+[2016.01.09-03.12.14:969][788]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_1_TestingMap, Game: /Game/GameMode/TestingGameMode.TestingGameMode_C)
+[2016.01.09-03.12.15:008][788]LogLoad: LoadMap: 127.0.0.1//Game/Maps/UEDPIE_1_TestingMap?game=/Game/GameMode/TestingGameMode.TestingGameMode_C
+[2016.01.09-03.12.15:025][788]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CA0F9C5800
+[2016.01.09-03.12.15:027][788]Cmd: MEM
+[2016.01.09-03.12.15:045][788]LogMemory: Platform Memory Stats for Windows
+[2016.01.09-03.12.15:045][788]LogMemory: Process Physical Memory: 936.91 MB used, 936.93 MB peak
+[2016.01.09-03.12.15:045][788]LogMemory: Process Virtual Memory: 1629.25 MB used, 1762.46 MB peak
+[2016.01.09-03.12.15:045][788]LogMemory: Physical Memory: 4301.92 MB used, 32720.44 MB total
+[2016.01.09-03.12.15:045][788]LogMemory: Virtual Memory: 2533.02 MB used, 134217728.00 MB total
+[2016.01.09-03.12.15:045][788]LogMemory: 
+[2016.01.09-03.12.15:045][788]Allocator Stats for TBB: (not implemented)
+[2016.01.09-03.12.15:045][788]LogLinker: Can't find file for asset '/Game/Maps/UEDPIE_1_TestingMap' while loading NULL.
+[2016.01.09-03.12.15:047][788]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/TestingMap.TestingMap to /Game/Maps/UEDPIE_2_TestingMap.TestingMap. OwningWorld: None
+[2016.01.09-03.12.15:047][788]LogAIModule: Creating AISystem for world TestingMap
+[2016.01.09-03.12.15:049][788]LogWorld: Bringing World /Game/Maps/UEDPIE_2_TestingMap.TestingMap up for play (max tick rate 0) at 2016.01.09-14.12.15
+[2016.01.09-03.12.15:049][788]LogWorld: Bringing up level for play took: 0.000962
+[2016.01.09-03.12.15:054][789]LogNet: Client netspeed is 10000
+[2016.01.09-03.12.15:054][789]LogNet: Join request: /Game/Maps/TestingMap?SplitscreenCount=1
+[2016.01.09-03.12.15:056][789]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_26.StaticMesh)
+[2016.01.09-03.12.15:056][789]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_26.StaticMesh1)
+[2016.01.09-03.12.15:056][789]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_26.StaticMesh2)
+[2016.01.09-03.12.15:056][789]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_26.StaticMesh3)
+[2016.01.09-03.12.15:056][789]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-660.000 Y=-33.859 Z=232.001] for [Car_C]
+[2016.01.09-03.12.15:056][789]LogSpawn:Warning: SpawnActor failed because the spawned actor IsPendingKill
+[2016.01.09-03.12.15:056][789]LogGameMode:Warning: Couldn't spawn Pawn of type Car_C at PlayerStart
+[2016.01.09-03.12.15:056][789]LogNet: Join succeeded: 283
+[2016.01.09-03.12.15:080][790]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_27.StaticMesh)
+[2016.01.09-03.12.15:080][790]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_27.StaticMesh1)
+[2016.01.09-03.12.15:080][790]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_27.StaticMesh2)
+[2016.01.09-03.12.15:080][790]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_27.StaticMesh3)
+[2016.01.09-03.12.15:081][790]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_28.StaticMesh)
+[2016.01.09-03.12.15:081][790]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_28.StaticMesh1)
+[2016.01.09-03.12.15:081][790]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_28.StaticMesh2)
+[2016.01.09-03.12.15:081][790]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_2_TestingMap.TestingMap:PersistentLevel.Car_C_28.StaticMesh3)
+[2016.01.09-03.12.15:129][792]LogNet: Creating child connection with IpConnection_9 parent
+[2016.01.09-03.12.15:129][792]LogNet: JOINSPLIT: Join request: URL=/Game/Maps/TestingMap?Name=Player?SplitscreenCount=2
+[2016.01.09-03.12.15:130][792]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_29.StaticMesh)
+[2016.01.09-03.12.15:130][792]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_29.StaticMesh1)
+[2016.01.09-03.12.15:130][792]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_29.StaticMesh2)
+[2016.01.09-03.12.15:130][792]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/UEDPIE_1_TestingMap.TestingMap:PersistentLevel.Car_C_29.StaticMesh3)
+[2016.01.09-03.12.15:131][792]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-660.000 Y=-33.859 Z=232.001] for [Car_C]
+[2016.01.09-03.12.15:131][792]LogSpawn:Warning: SpawnActor failed because the spawned actor IsPendingKill
+[2016.01.09-03.12.15:131][792]LogGameMode:Warning: Couldn't spawn Pawn of type Car_C at PlayerStart
+[2016.01.09-03.12.15:131][792]LogNet: JOINSPLIT: Succeeded: Player PlayerId: INVALID
+[2016.01.09-03.12.15:133][792]LogNet: Creating child connection with IpConnection_8 parent
+[2016.01.09-03.12.29:936][269]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-03.12.29:991][269]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.01.09-03.12.29:992][269]LogSpawn:Warning: SpawnActor failed because we are in the process of tearing down the world
+[2016.01.09-03.12.30:024][269]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestingMap.TestingMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap' with GeneratedClass '/Game/Maps/TestingMap.TestingMap_C' with ClassGeneratedBy '/Game/Maps/TestingMap.TestingMap:PersistentLevel.TestingMap'
+[2016.01.09-03.12.30:039][269]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.01.09-03.12.30:039][269]LogNet: UNetConnection::Close: Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:60127, Time: 2016.01.09-03.12.30
+[2016.01.09-03.12.30:039][269]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_9
+[2016.01.09-03.12.30:039][269]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.01.09-03.12.30:039][269]LogNet: UNetConnection::Close: Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.01.09-03.12.30
+[2016.01.09-03.12.30:039][269]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_8
+[2016.01.09-03.12.30:045][269]LogExit: GameNetDriver None shut down
+[2016.01.09-03.12.30:045][269]LogExit: GameNetDriver None shut down
+[2016.01.09-03.12.30:045][269]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CA05AF3F60
+[2016.01.09-03.12.30:045][269]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001CA0F9C6B60
+[2016.01.09-03.13.41:777][675]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-03.13.41:777][675]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-03.13.41:777][675]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-03.13.41:777][675]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-03.13.41:778][675]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-03.13.41:778][675]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-03.13.41:778][675]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-03.13.41:778][675]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-03.13.41:778][675]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-03.13.41:778][675]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-03.13.41:778][675]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-03.13.41:778][675]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-03.13.57:700][754]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-03.13.57:700][754]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-03.13.57:700][754]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-03.13.57:700][754]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-03.13.57:701][754]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-03.13.57:701][754]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-03.13.57:701][754]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-03.13.57:701][754]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-03.13.57:701][754]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-03.13.57:701][754]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-03.13.57:701][754]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-03.13.57:701][754]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-03.14.06:871][526]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-03.14.06:871][526]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-03.14.06:871][526]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-03.14.06:871][526]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-03.14.06:872][526]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-03.14.06:872][526]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-03.14.06:872][526]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-03.14.06:872][526]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-03.14.06:872][526]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-03.14.06:872][526]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-03.14.06:872][526]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-03.14.06:872][526]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-03.14.07:579][587]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-03.14.07:579][587]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-03.14.07:579][587]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-03.14.07:579][587]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-03.14.07:580][587]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-03.14.07:580][587]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-03.14.07:580][587]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-03.14.07:580][587]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-03.14.07:580][587]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-03.14.07:580][587]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-03.14.07:580][587]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-03.14.07:580][587]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-03.14.08:817][694]BlueprintLog: New page: Compile Car
+[2016.01.09-03.14.08:876][694]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-03.14.08:876][694]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-03.14.08:876][694]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-03.14.08:876][694]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-03.14.08:876][694]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-03.14.08:876][694]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-03.14.08:876][694]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-03.14.08:876][694]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-03.14.08:876][694]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-03.14.08:876][694]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-03.14.08:877][694]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-03.14.08:877][694]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-03.14.08:925][694]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-03.14.08:925][694]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-03.14.08:925][694]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-03.14.08:925][694]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-03.14.08:926][694]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-03.14.08:926][694]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-03.14.08:926][694]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-03.14.08:926][694]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-03.14.08:926][694]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh)
+[2016.01.09-03.14.08:926][694]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh1)
+[2016.01.09-03.14.08:926][694]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh2)
+[2016.01.09-03.14.08:926][694]LogPrimitiveComponent: Zero scaling not supported (/Engine/Transient.World_4:PersistentLevel.Car_C_3.StaticMesh3)
+[2016.01.09-03.14.08:929][694]BlueprintEditorCompileResults: Info [1139.53] Compile of Car successful! [in 112 ms]
+[2016.01.09-03.14.10:087][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Car" FILE="D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Blueprints/Car.uasset" SILENT=true
+[2016.01.09-03.14.10:301][821]LogSavePackage: Save=209.603317ms
+[2016.01.09-03.14.10:301][821]LogSavePackage: Moving 'D:/Program Files/GIT/github/UE4Projects/GroupProject/Saved/Car33207DF7478676932C3C7B869F2710A7.tmp' to 'D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Blueprints/Car.uasset'
+[2016.01.09-03.14.10:302][821]LogSavePackage: Total save time: 213.862315ms
+[2016.01.09-03.14.10:302][821]LogSavePackage:Display: Finished SavePackage D:/Program Files/GIT/github/UE4Projects/GroupProject/Content/Blueprints/Car.uasset
+[2016.01.09-03.14.28:469][589]LogCrashTracker: 
+
+
+[2016.01.09-03.14.28:470][589]LogCrashTracker: 
+
+
+[2016.01.09-03.14.28:470][589]LogWindows:Error: === Critical error: ===
+Fatal error!
+
+
+
+[2016.01.09-03.14.28:509][589]LogExit: Executing StaticShutdownAfterError
+[2016.01.09-03.14.28:520][589]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.01.09-03.14.28:520][589]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.01.09-03.14.28:520][589]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.01.09-03.14.28:520][589]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.01.09-03.14.28:520][589]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.01.09-03.14.28:520][589]Log file closed, 01/09/16 14:14:28
