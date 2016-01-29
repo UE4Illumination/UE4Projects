@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<Version>1</Version>
+<ProcessId>7776</ProcessId>
+<IsInternalBuild>0</IsInternalBuild>
+<IsPerforceBuild>0</IsPerforceBuild>
+<IsSourceDistribution>0</IsSourceDistribution>
+<GameName>GroupProject</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<EngineVersion>4.10.0-2758231+++depot+UE4-Releases+4.10</EngineVersion>
+<CommandLine> </CommandLine>
+<LanguageLCID>3081</LanguageLCID>
+<DefaultLocale>en_AU</DefaultLocale>
+<IsUE4Release>1</IsUE4Release>
+<UserName></UserName>
+<BaseDir>C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/</BaseDir>
+<RootDir>C:/Program Files (x86)/Epic Games/4.10/</RootDir>
+<MachineId>C7BF1D8B40C7A484FA4816A5EB33937F</MachineId>
+<EpicAccountId>aeaa3af4045243359e0d8c4eedc51930</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<ErrorMessage>Assertion failed: !bHasBegunPlay [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Runtime\Engine\Private\Components\ActorComponent.cpp] [Line: 640] 
+
+</ErrorMessage>
+<MiscNumberOfCores>4</MiscNumberOfCores>
+<MiscNumberOfCoresIncludingHyperthreads>8</MiscNumberOfCoresIncludingHyperthreads>
+<MiscIs64bitOperatingSystem>1</MiscIs64bitOperatingSystem>
+<MiscCPUVendor>GenuineIntel</MiscCPUVendor>
+<MiscCPUBrand>Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz</MiscCPUBrand>
+<MiscPrimaryGPUBrand>NVIDIA GeForce GTX 980 Ti</MiscPrimaryGPUBrand>
+<MiscOSVersionMajor>Windows 10</MiscOSVersionMajor>
+<MiscOSVersionMinor></MiscOSVersionMinor>
+<CrashDumpMode>0</CrashDumpMode>
+<MemoryStatsTotalPhysical>34309869568</MemoryStatsTotalPhysical>
+<MemoryStatsTotalVirtual>140737488224256</MemoryStatsTotalVirtual>
+<MemoryStatsPageSize>4096</MemoryStatsPageSize>
+<MemoryStatsTotalPhysicalGB>32</MemoryStatsTotalPhysicalGB>
+<MemoryStatsAvailablePhysical>29307158528</MemoryStatsAvailablePhysical>
+<MemoryStatsAvailableVirtual>140735564288000</MemoryStatsAvailableVirtual>
+<MemoryStatsUsedPhysical>669540352</MemoryStatsUsedPhysical>
+<MemoryStatsPeakUsedPhysical>686645248</MemoryStatsPeakUsedPhysical>
+<MemoryStatsUsedVirtual>1176076288</MemoryStatsUsedVirtual>
+<MemoryStatsPeakUsedVirtual>1176076288</MemoryStatsPeakUsedVirtual>
+<MemoryStatsbIsOOM>0</MemoryStatsbIsOOM>
+<MemoryStatsOOMAllocationSize>0</MemoryStatsOOMAllocationSize>
+<MemoryStatsOOMAllocationAlignment>0</MemoryStatsOOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+</PlatformProperties>
+</FGenericCrashContext>
