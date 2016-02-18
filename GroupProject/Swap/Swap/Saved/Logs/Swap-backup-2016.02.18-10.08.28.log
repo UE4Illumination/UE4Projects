@@ -1,0 +1,601 @@
+﻿[2016.02.17-22.29.25:172][  0]Log file open, 02/18/16 09:29:25
+[2016.02.17-22.29.25:172][  0]LogInit:Display: Running engine for game: Swap
+[2016.02.17-22.29.25:172][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.17-22.29.25:172][  0]LogInit:Display: RandInit(-12826098) SRandInit(-12826096).
+[2016.02.17-22.29.25:172][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.17-22.29.25:172][  0]LogStats: Stats thread started at 0.475305
+[2016.02.17-22.29.25:172][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.17-22.29.25:172][  0]LogInit: API Version: 2758231
+[2016.02.17-22.29.25:172][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.02.17-22.29.25:172][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.17-22.29.25:172][  0]LogInit: Build Configuration: Development
+[2016.02.17-22.29.25:172][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.17-22.29.25:172][  0]LogInit: Command line:  
+[2016.02.17-22.29.25:172][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.17-22.29.25:172][  0]LogInit: Rocket: 1
+[2016.02.17-22.29.25:183][  0]LogInit: Using libcurl 7.41.0
+[2016.02.17-22.29.25:183][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.17-22.29.25:183][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.17-22.29.25:183][  0]LogInit:  - other features:
+[2016.02.17-22.29.25:183][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.17-22.29.25:183][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.17-22.29.25:183][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.17-22.29.25:183][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.17-22.29.25:183][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.17-22.29.25:184][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.17-22.29.25:184][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.17-22.29.25:184][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.17-22.29.25:184][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.17-22.29.25:184][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.17-22.29.25:204][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.17-22.29.25:216][  0]LogInit: Object subsystem initialized
+[2016.02.17-22.29.25:226][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.17-22.29.25:226][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.17-22.29.25:234][  0]LogInit: Computer: HARST-D2A9E8
+[2016.02.17-22.29.25:234][  0]LogInit: User: jackcarolan
+[2016.02.17-22.29.25:234][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.02.17-22.29.25:234][  0]LogInit: High frequency timer resolution =3.323642 MHz
+[2016.02.17-22.29.25:234][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2016.02.17-22.29.25:234][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.17-22.29.25:234][  0]LogMemory: Process Physical Memory: 57.01 MB used, 57.01 MB peak
+[2016.02.17-22.29.25:234][  0]LogMemory: Process Virtual Memory: 60.66 MB used, 60.66 MB peak
+[2016.02.17-22.29.25:234][  0]LogMemory: Physical Memory: 2976.88 MB used, 16345.20 MB total
+[2016.02.17-22.29.25:234][  0]LogMemory: Virtual Memory: 354.85 MB used, 8388608.00 MB total
+[2016.02.17-22.29.25:352][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.02.17-22.29.25:745][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660 Ti (Feature Level 11_0)
+[2016.02.17-22.29.25:745][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2016.02.17-22.29.25:745][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.17-22.29.25:748][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.17-22.29.25:748][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.17-22.29.25:756][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.17-22.29.25:783][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Intermediate/Shaders/WorkingDirectory/5112/).
+[2016.02.17-22.29.25:784][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/JACK~1.CAR/AppData/Local/Temp/UnrealShaderWorkingDir/784F0B504DB964AD3A91D494EE8F1B07/'.
+[2016.02.17-22.29.25:784][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.17-22.29.26:787][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.17-22.29.26:791][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.17-22.29.26:795][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.17-22.29.26:799][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.17-22.29.26:804][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.17-22.29.26:809][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.17-22.29.26:812][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.17-22.29.26:816][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.17-22.29.26:819][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.17-22.29.26:823][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.17-22.29.26:827][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.17-22.29.26:834][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.17-22.29.26:834][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.17-22.29.26:836][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.17-22.29.26:857][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.17-22.29.26:860][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.17-22.29.26:864][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.17-22.29.26:868][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.17-22.29.26:868][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.17-22.29.26:967][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.17-22.29.27:096][  0]LogDerivedDataCache: Loaded boot cache 0.13s 41MB C:/Users/jack.carolan/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.17-22.29.27:096][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jack.carolan/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.17-22.29.27:096][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.17-22.29.27:096][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.17-22.29.27:096][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.17-22.29.27:096][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.17-22.29.27:152][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.17-22.29.27:164][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jack.carolan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.17-22.29.27:673][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.17-22.29.27:675][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.17-22.29.27:750][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.17-22.29.27:750][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.17-22.29.28:212][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.17-22.29.29:637][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.17-22.29.29:772][  0]LogAssetRegistry: FAssetRegistry took 0.0115 seconds to start up
+[2016.02.17-22.29.29:996][  0]SourceControl: Info Source control is disabled
+[2016.02.17-22.29.30:067][  0]SourceControl: Info Source control is disabled
+[2016.02.17-22.29.30:081][  0]SourceControl: Info Source control is disabled
+[2016.02.17-22.29.30:090][  0]SourceControl: Info Source control is disabled
+[2016.02.17-22.29.30:315][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.02.17-22.29.30:315][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.02.17-22.29.30:394][  0]LogEngine: Initializing Engine...
+[2016.02.17-22.29.30:396][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.17-22.29.30:398][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.17-22.29.30:526][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.17-22.29.30:541][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-22.29.30:548][  0]LogInit: FAudioDevice initialized.
+[2016.02.17-22.29.30:576][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/jack.carolan/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.17-22.29.30:578][  0]LogInit: Texture streaming: Enabled
+[2016.02.17-22.29.30:583][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.17-22.29.30:583][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.17-22.29.30:583][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 46cfea764061f1b9c41e02b8bd51e989|aeaa3af4045243359e0d8c4eedc51930|83405bc8-af7b-4bc6-aae5-6e4514ef7c9f
+[2016.02.17-22.29.30:583][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.17-22.29.30:606][  0]LogInit: Transaction tracking system initialized
+[2016.02.17-22.29.30:654][  0]BlueprintLog: New page: Editor Load
+[2016.02.17-22.29.30:868][  0]LocalizationService: Info Localization service is disabled
+[2016.02.17-22.29.30:966][  0]LogConsoleResponse:Display: 
+[2016.02.17-22.29.31:086][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.17-22.29.31:164][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/' took 0.01s
+[2016.02.17-22.29.31:164][  0]SourceControl: Info Source control is disabled
+[2016.02.17-22.29.31:165][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/Maps/swapMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.17-22.29.31:166][  0]LightingResults: New page: Lighting Build
+[2016.02.17-22.29.31:171][  0]MapCheck: New page: Map Check
+[2016.02.17-22.29.31:172][  0]LightingResults: New page: Lighting Build
+[2016.02.17-22.29.31:185][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002536AAC0
+[2016.02.17-22.29.31:438][  0]LogAIModule: Creating AISystem for world swapMap
+[2016.02.17-22.29.31:455][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.17-22.29.31:456][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.17-22.29.31:485][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 28.427ms to complete.
+[2016.02.17-22.29.31:485][  0]LogFileHelpers: Loading map 'swapMap' took 0.320
+[2016.02.17-22.29.31:640][  0]LogCollectionManager: Loaded 0 collections in 0.001486 seconds
+[2016.02.17-22.29.31:691][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/Collections/' took 0.01s
+[2016.02.17-22.29.31:691][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/Developers/jackcarolan/Collections/' took 0.01s
+[2016.02.17-22.29.31:692][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/Collections/' took 0.01s
+[2016.02.17-22.29.31:692][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.02.17-22.29.31:703][  0]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 1893 classes and 338 folders.
+[2016.02.17-22.29.31:710][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.02.17-22.29.31:878][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.02.17-22.29.31:887][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.02.17-22.29.32:013][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.17-22.29.32:066][  0]LogLoad: Full Startup: 7.79 seconds (BP compile: 0.07 seconds)
+[2016.02.17-22.29.32:076][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.17-22.29.32:133][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.17-22.29.32:274][  0]LogRenderer: Reallocating scene render targets to support 1208x552 (Frame:2).
+[2016.02.17-22.29.32:420][  3]LogAssetRegistry: Asset discovery search completed in 2.6579 seconds
+[2016.02.17-22.29.32:420][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.02.17-22.29.32:420][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2016.02.17-22.30.53:394][629]LogActorFactory: Actor Factory created Cube
+[2016.02.17-22.30.55:032][824]LogActorFactory: Actor Factory created Cube
+[2016.02.17-22.31.13:966][994]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.02.17-22.31.16:311][272]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2016.02.17-22.32.10:192][636]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-22.32.10:192][636]PIE: New page: PIE session: swapMap (Feb 18, 2016, 8:32:10 PM)
+[2016.02.17-22.32.10:192][636]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_swapMap
+[2016.02.17-22.32.10:195][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002595s)
+[2016.02.17-22.32.10:196][636]LogAIModule: Creating AISystem for world swapMap
+[2016.02.17-22.32.10:196][636]LogPlayLevel: PIE: World Init took: (0.001280s)
+[2016.02.17-22.32.10:196][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/swapMap.swapMap to /Game/Maps/UEDPIE_0_swapMap.swapMap (0.004041s)
+[2016.02.17-22.32.10:213][636]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-22.32.10:221][636]LogInit: FAudioDevice initialized.
+[2016.02.17-22.32.10:345][636]LogWorld: Game class is 'SwapGameMode_C'
+[2016.02.17-22.32.10:348][636]LogWorld: Bringing World /Game/Maps/UEDPIE_0_swapMap.swapMap up for play (max tick rate 0) at 2016.02.18-09.32.10
+[2016.02.17-22.32.10:349][636]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_swapMap.swapMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-22.32.10:349][636]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_swapMap.swapMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-22.32.10:349][636]LogWorld: Bringing up level for play took: 0.002744
+[2016.02.17-22.32.10:356][636]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_swapMap 0.028
+[2016.02.17-22.32.14:499][124]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.32.14:511][124]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021FFD620
+[2016.02.17-22.32.36:945][126]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.32.37:060][126]LogSavePackage: Save=23.530813ms
+[2016.02.17-22.32.37:060][126]LogSavePackage: Moving '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/swapMap5812567D488943E20B82B585428C9474.tmp' to '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/Maps/swapMap.umap'
+[2016.02.17-22.32.37:061][126]LogSavePackage: Total save time: 31.260885ms
+[2016.02.17-22.32.37:061][126]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/Maps/swapMap.umap
+[2016.02.17-22.32.37:078][126]LogFileHelpers: Saving map 'swapMap' took 0.091
+[2016.02.17-22.32.37:082][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/SwapHud" FILE="../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapHud.uasset" SILENT=true
+[2016.02.17-22.32.37:088][126]LogSavePackage: Save=5.250866ms
+[2016.02.17-22.32.37:088][126]LogSavePackage: Moving '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/SwapHud9D7BF1B247319A62109CF0B4CB43F3E2.tmp' to '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapHud.uasset'
+[2016.02.17-22.32.37:089][126]LogSavePackage: Total save time: 6.469108ms
+[2016.02.17-22.32.37:089][126]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapHud.uasset
+[2016.02.17-22.32.38:531][226]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.17-22.32.38:899][226]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2016.02.17-22.34.32:456][444]BlueprintLog: New page: Compile SwapHud
+[2016.02.17-22.34.32:490][444]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.34.32:523][444]BlueprintEditorCompileResults: Info [0308.23] Compile of SwapHud successful! [in 66 ms]
+[2016.02.17-22.34.33:399][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/SwapHud" FILE="../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapHud.uasset" SILENT=true
+[2016.02.17-22.34.33:409][543]LogSavePackage: Save=5.111260ms
+[2016.02.17-22.34.33:409][543]LogSavePackage: Moving '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/SwapHud90EAE7EB4E295790FE5D50B28D0361ED.tmp' to '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapHud.uasset'
+[2016.02.17-22.34.33:410][543]LogSavePackage: Total save time: 8.165140ms
+[2016.02.17-22.34.33:410][543]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapHud.uasset
+[2016.02.17-22.34.47:019][991]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.34.50:357][378]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.02.17-22.34.51:674][525]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.02.17-22.35.00:004][503]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.02.17-22.35.06:096][218]BlueprintLog: New page: Compile SwapMan
+[2016.02.17-22.35.06:163][218]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.02.17-22.35.06:191][218]BlueprintEditorCompileResults: Info [0341.89] Compile of SwapMan successful! [in 94 ms]
+[2016.02.17-22.35.06:638][270]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.35.06:701][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/SwapMan" FILE="../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset" SILENT=true
+[2016.02.17-22.35.06:806][270]LogSavePackage: Save=101.700485ms
+[2016.02.17-22.35.06:806][270]LogSavePackage: Moving '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/SwapMan57E2DCE54B2C4C59ED7D4CA0356E736D.tmp' to '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset'
+[2016.02.17-22.35.06:807][270]LogSavePackage: Total save time: 105.536636ms
+[2016.02.17-22.35.06:807][270]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset
+[2016.02.17-22.38.05:040][346]BlueprintLog: New page: Compile SwapMan
+[2016.02.17-22.38.05:103][346]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.38.05:131][346]BlueprintEditorCompileResults: Info [0520.82] Compile of SwapMan successful! [in 90 ms]
+[2016.02.17-22.38.05:938][442]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.38.05:997][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/SwapMan" FILE="../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset" SILENT=true
+[2016.02.17-22.38.06:110][442]LogSavePackage: Save=109.211823ms
+[2016.02.17-22.38.06:110][442]LogSavePackage: Moving '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/SwapManA57714A048E9ECA2221FE89975F13B24.tmp' to '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset'
+[2016.02.17-22.38.06:111][442]LogSavePackage: Total save time: 113.574203ms
+[2016.02.17-22.38.06:111][442]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset
+[2016.02.17-22.38.24:178][585]BlueprintLog: New page: Compile SwapMan
+[2016.02.17-22.38.24:243][585]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.38.24:270][585]BlueprintEditorCompileResults: Info [0539.96] Compile of SwapMan successful! [in 91 ms]
+[2016.02.17-22.38.24:837][652]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.38.24:898][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/SwapMan" FILE="../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset" SILENT=true
+[2016.02.17-22.38.25:012][652]LogSavePackage: Save=111.960915ms
+[2016.02.17-22.38.25:012][652]LogSavePackage: Moving '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/SwapMan8605D17D46FF79F03DDBA08CD063DF3D.tmp' to '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset'
+[2016.02.17-22.38.25:014][652]LogSavePackage: Total save time: 114.824340ms
+[2016.02.17-22.38.25:014][652]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset
+[2016.02.17-22.38.26:806][861]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-22.38.26:806][861]PIE: New page: PIE session: swapMap (Feb 18, 2016, 8:38:26 PM)
+[2016.02.17-22.38.26:806][861]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_swapMap
+[2016.02.17-22.38.26:809][861]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002307s)
+[2016.02.17-22.38.26:810][861]LogAIModule: Creating AISystem for world swapMap
+[2016.02.17-22.38.26:810][861]LogPlayLevel: PIE: World Init took: (0.001113s)
+[2016.02.17-22.38.26:810][861]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/swapMap.swapMap to /Game/Maps/UEDPIE_0_swapMap.swapMap (0.003583s)
+[2016.02.17-22.38.26:810][861]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.38.26:833][861]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-22.38.26:837][861]LogInit: FAudioDevice initialized.
+[2016.02.17-22.38.26:872][861]LogWorld: Game class is 'SwapGameMode_C'
+[2016.02.17-22.38.26:875][861]LogWorld: Bringing World /Game/Maps/UEDPIE_0_swapMap.swapMap up for play (max tick rate 0) at 2016.02.18-09.38.26
+[2016.02.17-22.38.26:875][861]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_swapMap.swapMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-22.38.26:875][861]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_swapMap.swapMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-22.38.26:876][861]LogWorld: Bringing up level for play took: 0.002483
+[2016.02.17-22.38.26:879][861]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_swapMap 0.527
+[2016.02.17-22.38.35:897][934]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006D16CFE0
+[2016.02.17-22.39.03:357][853]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.39.04:992][984]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.02.17-22.39.06:608][112]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.02.17-22.39.11:647][530]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2016.02.17-22.39.13:116][647]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2016.02.17-22.39.16:923][952]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2016.02.17-22.39.21:102][287]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2016.02.17-22.39.23:259][456]BlueprintLog: New page: Compile SwapMan
+[2016.02.17-22.39.23:333][456]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2016.02.17-22.39.23:365][456]BlueprintEditorCompileResults: Info [0599.05] Compile of SwapMan successful! [in 106 ms]
+[2016.02.17-22.39.24:216][524]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.39.24:277][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/SwapMan" FILE="../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset" SILENT=true
+[2016.02.17-22.39.24:390][524]LogSavePackage: Save=111.072433ms
+[2016.02.17-22.39.24:390][524]LogSavePackage: Moving '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/SwapMan9114F984451143C7FF4B5CA71A66322A.tmp' to '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset'
+[2016.02.17-22.39.24:391][524]LogSavePackage: Total save time: 113.859132ms
+[2016.02.17-22.39.24:391][524]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset
+[2016.02.17-22.39.44:934][746]BlueprintLog: New page: Compile SwapMan
+[2016.02.17-22.39.45:003][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.39.45:031][746]BlueprintEditorCompileResults: Info [0620.72] Compile of SwapMan successful! [in 97 ms]
+[2016.02.17-22.39.45:702][824]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.39.45:764][824]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/SwapMan" FILE="../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset" SILENT=true
+[2016.02.17-22.39.45:875][824]LogSavePackage: Save=109.065895ms
+[2016.02.17-22.39.45:875][824]LogSavePackage: Moving '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/SwapMan970F5786404CBDA7A421CB971841A233.tmp' to '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset'
+[2016.02.17-22.39.45:876][824]LogSavePackage: Total save time: 111.919392ms
+[2016.02.17-22.39.45:876][824]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset
+[2016.02.17-22.39.47:307][993]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-22.39.47:307][993]PIE: New page: PIE session: swapMap (Feb 18, 2016, 8:39:47 PM)
+[2016.02.17-22.39.47:307][993]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_swapMap
+[2016.02.17-22.39.47:310][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002563s)
+[2016.02.17-22.39.47:310][993]LogAIModule: Creating AISystem for world swapMap
+[2016.02.17-22.39.47:310][993]LogPlayLevel: PIE: World Init took: (0.000524s)
+[2016.02.17-22.39.47:310][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/swapMap.swapMap to /Game/Maps/UEDPIE_0_swapMap.swapMap (0.003252s)
+[2016.02.17-22.39.47:310][993]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.39.47:335][993]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-22.39.47:339][993]LogInit: FAudioDevice initialized.
+[2016.02.17-22.39.47:371][993]LogWorld: Game class is 'SwapGameMode_C'
+[2016.02.17-22.39.47:373][993]LogWorld: Bringing World /Game/Maps/UEDPIE_0_swapMap.swapMap up for play (max tick rate 0) at 2016.02.18-09.39.47
+[2016.02.17-22.39.47:373][993]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_swapMap.swapMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-22.39.47:374][993]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_swapMap.swapMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-22.39.47:374][993]LogWorld: Bringing up level for play took: 0.002366
+[2016.02.17-22.39.47:375][993]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_swapMap 1.019
+[2016.02.17-22.39.55:817][840]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000791B4180
+[2016.02.17-22.40.10:045][374]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.40.11:050][486]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2016.02.17-22.40.12:363][633]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2016.02.17-22.40.23:720][982]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2016.02.17-22.40.24:758][ 98]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2016.02.17-22.40.29:457][650]BlueprintLog: New page: Compile SwapMan
+[2016.02.17-22.40.29:533][650]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2016.02.17-22.40.29:564][650]BlueprintEditorCompileResults: Info [0665.25] Compile of SwapMan successful! [in 107 ms]
+[2016.02.17-22.40.30:171][721]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.40.30:235][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/SwapMan" FILE="../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset" SILENT=true
+[2016.02.17-22.40.30:349][721]LogSavePackage: Save=110.926506ms
+[2016.02.17-22.40.30:349][721]LogSavePackage: Moving '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/SwapMan3242F8264A6AD7BEC2B84EB1AE76628B.tmp' to '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset'
+[2016.02.17-22.40.30:350][721]LogSavePackage: Total save time: 114.790343ms
+[2016.02.17-22.40.30:350][721]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset
+[2016.02.17-22.40.40:947][974]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.40.47:730][778]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2016.02.17-22.40.50:158][ 65]BlueprintLog: New page: Compile SwapMan
+[2016.02.17-22.40.50:230][ 65]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2016.02.17-22.40.50:259][ 65]BlueprintEditorCompileResults: Info [0685.94] Compile of SwapMan successful! [in 100 ms]
+[2016.02.17-22.40.50:733][119]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.40.50:789][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/SwapMan" FILE="../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset" SILENT=true
+[2016.02.17-22.40.50:902][119]LogSavePackage: Save=110.351540ms
+[2016.02.17-22.40.50:902][119]LogSavePackage: Moving '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/SwapMan72FD17D94962B2B29023A780A7321324.tmp' to '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset'
+[2016.02.17-22.40.50:904][119]LogSavePackage: Total save time: 113.488756ms
+[2016.02.17-22.40.50:904][119]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset
+[2016.02.17-22.41.06:562][951]BlueprintLog: New page: Compile SwapMan
+[2016.02.17-22.41.06:635][951]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.41.06:663][951]BlueprintEditorCompileResults: Info [0702.35] Compile of SwapMan successful! [in 100 ms]
+[2016.02.17-22.41.07:435][ 42]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.41.07:504][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/SwapMan" FILE="../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset" SILENT=true
+[2016.02.17-22.41.07:622][ 42]LogSavePackage: Save=115.897263ms
+[2016.02.17-22.41.07:622][ 42]LogSavePackage: Moving '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/SwapManB6304AC04B8360DB576306BAFAD8107F.tmp' to '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset'
+[2016.02.17-22.41.07:629][ 42]LogSavePackage: Total save time: 124.472491ms
+[2016.02.17-22.41.07:629][ 42]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset
+[2016.02.17-22.41.43:703][740]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.41.54:248][931]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2016.02.17-22.41.55:328][ 44]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2016.02.17-22.41.58:073][342]BlueprintLog: New page: Compile SwapMan
+[2016.02.17-22.41.58:149][342]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2016.02.17-22.41.58:179][342]BlueprintEditorCompileResults: Info [0753.86] Compile of SwapMan successful! [in 105 ms]
+[2016.02.17-22.41.58:760][405]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.41.58:820][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/SwapMan" FILE="../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset" SILENT=true
+[2016.02.17-22.41.58:938][405]LogSavePackage: Save=115.303329ms
+[2016.02.17-22.41.58:938][405]LogSavePackage: Moving '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/SwapMan878AD979487CC333E698A19412844088.tmp' to '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset'
+[2016.02.17-22.41.58:939][405]LogSavePackage: Total save time: 118.270561ms
+[2016.02.17-22.41.58:939][405]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset
+[2016.02.17-22.42.03:425][903]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.42.05:201][ 99]BlueprintLog: New page: Compile SwapMan
+[2016.02.17-22.42.05:275][ 99]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2016.02.17-22.42.05:304][ 99]BlueprintEditorCompileResults: Info [0760.99] Compile of SwapMan successful! [in 103 ms]
+[2016.02.17-22.42.05:891][163]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.42.05:964][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/SwapMan" FILE="../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset" SILENT=true
+[2016.02.17-22.42.06:083][163]LogSavePackage: Save=116.791458ms
+[2016.02.17-22.42.06:083][163]LogSavePackage: Moving '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/SwapMan7614D8D5478D3EA91F80D090E24A5F9F.tmp' to '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset'
+[2016.02.17-22.42.06:085][163]LogSavePackage: Total save time: 120.096270ms
+[2016.02.17-22.42.06:085][163]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset
+[2016.02.17-22.43.24:188][834]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.43.25:209][954]BlueprintLog: New page: Compile SwapMan
+[2016.02.17-22.43.25:289][954]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2016.02.17-22.43.25:318][954]BlueprintEditorCompileResults: Info [0841.01] Compile of SwapMan successful! [in 108 ms]
+[2016.02.17-22.43.25:948][ 28]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.43.26:012][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/SwapMan" FILE="../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset" SILENT=true
+[2016.02.17-22.43.26:132][ 28]LogSavePackage: Save=116.168648ms
+[2016.02.17-22.43.26:132][ 28]LogSavePackage: Moving '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/SwapMan045B42C64814D649989DC8A1B29928D4.tmp' to '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset'
+[2016.02.17-22.43.26:133][ 28]LogSavePackage: Total save time: 120.540060ms
+[2016.02.17-22.43.26:133][ 28]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset
+[2016.02.17-22.43.59:421][609]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.44.23:600][434]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/BluePrints/SwapMan.SwapMan:EventGraph.K2Node_VariableGet_42 or K2Node_VariableGet /Game/BluePrints/SwapMan.SwapMan:ExecuteUbergraph_SwapMan.K2Node_VariableGet_42
+[2016.02.17-22.44.23:600][434]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_42.EdGraphPin_4193''
+[2016.02.17-22.46.09:485][967]BlueprintLog: New page: Compile SwapMan
+[2016.02.17-22.46.09:566][967]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.46.09:587][967]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FC10CC0
+[2016.02.17-22.46.09:595][967]BlueprintEditorCompileResults: Info [1005.29] Compile of SwapMan successful! [in 110 ms]
+[2016.02.17-22.46.10:338][ 55]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.46.10:412][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/SwapMan" FILE="../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset" SILENT=true
+[2016.02.17-22.46.10:546][ 55]LogSavePackage: Save=130.970490ms
+[2016.02.17-22.46.10:546][ 55]LogSavePackage: Moving '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/SwapManF639455C46F07A73ED25928E9D9F035F.tmp' to '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset'
+[2016.02.17-22.46.10:548][ 55]LogSavePackage: Total save time: 134.902917ms
+[2016.02.17-22.46.10:548][ 55]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset
+[2016.02.17-22.46.15:048][592]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-22.46.15:049][592]PIE: New page: PIE session: swapMap (Feb 18, 2016, 8:46:15 PM)
+[2016.02.17-22.46.15:049][592]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_swapMap
+[2016.02.17-22.46.15:051][592]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002535s)
+[2016.02.17-22.46.15:052][592]LogAIModule: Creating AISystem for world swapMap
+[2016.02.17-22.46.15:052][592]LogPlayLevel: PIE: World Init took: (0.000533s)
+[2016.02.17-22.46.15:052][592]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/swapMap.swapMap to /Game/Maps/UEDPIE_0_swapMap.swapMap (0.003234s)
+[2016.02.17-22.46.15:052][592]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.46.15:077][592]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-22.46.15:080][592]LogInit: FAudioDevice initialized.
+[2016.02.17-22.46.15:110][592]LogWorld: Game class is 'SwapGameMode_C'
+[2016.02.17-22.46.15:113][592]LogWorld: Bringing World /Game/Maps/UEDPIE_0_swapMap.swapMap up for play (max tick rate 0) at 2016.02.18-09.46.15
+[2016.02.17-22.46.15:113][592]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_swapMap.swapMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-22.46.15:113][592]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_swapMap.swapMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-22.46.15:113][592]LogWorld: Bringing up level for play took: 0.002627
+[2016.02.17-22.46.15:115][592]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_swapMap 0.77
+[2016.02.17-22.46.27:046][ 15]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A50F1A0
+[2016.02.17-22.46.34:730][926]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-22.46.34:731][926]PIE: New page: PIE session: swapMap (Feb 18, 2016, 8:46:34 PM)
+[2016.02.17-22.46.34:731][926]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_swapMap
+[2016.02.17-22.46.34:733][926]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002302s)
+[2016.02.17-22.46.34:733][926]LogAIModule: Creating AISystem for world swapMap
+[2016.02.17-22.46.34:733][926]LogPlayLevel: PIE: World Init took: (0.000514s)
+[2016.02.17-22.46.34:734][926]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/swapMap.swapMap to /Game/Maps/UEDPIE_0_swapMap.swapMap (0.002988s)
+[2016.02.17-22.46.34:760][926]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-22.46.34:764][926]LogInit: FAudioDevice initialized.
+[2016.02.17-22.46.34:797][926]LogWorld: Game class is 'SwapGameMode_C'
+[2016.02.17-22.46.34:800][926]LogWorld: Bringing World /Game/Maps/UEDPIE_0_swapMap.swapMap up for play (max tick rate 0) at 2016.02.18-09.46.34
+[2016.02.17-22.46.34:800][926]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_swapMap.swapMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-22.46.34:800][926]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_swapMap.swapMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-22.46.34:800][926]LogWorld: Bringing up level for play took: 0.002485
+[2016.02.17-22.46.34:802][926]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_swapMap 0.457
+[2016.02.17-22.46.46:679][341]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A50F060
+[2016.02.17-22.46.56:789][520]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-22.46.56:789][520]PIE: New page: PIE session: swapMap (Feb 18, 2016, 8:46:56 PM)
+[2016.02.17-22.46.56:789][520]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_swapMap
+[2016.02.17-22.46.56:792][520]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002742s)
+[2016.02.17-22.46.56:792][520]LogAIModule: Creating AISystem for world swapMap
+[2016.02.17-22.46.56:792][520]LogPlayLevel: PIE: World Init took: (0.000658s)
+[2016.02.17-22.46.56:793][520]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/swapMap.swapMap to /Game/Maps/UEDPIE_0_swapMap.swapMap (0.003591s)
+[2016.02.17-22.46.56:817][520]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-22.46.56:820][520]LogInit: FAudioDevice initialized.
+[2016.02.17-22.46.56:851][520]LogWorld: Game class is 'SwapGameMode_C'
+[2016.02.17-22.46.56:854][520]LogWorld: Bringing World /Game/Maps/UEDPIE_0_swapMap.swapMap up for play (max tick rate 0) at 2016.02.18-09.46.56
+[2016.02.17-22.46.56:854][520]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_swapMap.swapMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-22.46.56:854][520]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_swapMap.swapMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-22.46.56:854][520]LogWorld: Bringing up level for play took: 0.002493
+[2016.02.17-22.46.56:856][520]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_swapMap 0.512
+[2016.02.17-22.47.18:302][ 83]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000040B7C5E0
+[2016.02.17-22.48.08:332][905]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.48.08:353][905]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004084F6A0
+[2016.02.17-22.49.02:490][258]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.49.02:513][258]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/swapMap' took 0.022
+[2016.02.17-22.51.05:007][534]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.51.05:073][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/WallClimb" FILE="../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/WallClimb.uasset" SILENT=true
+[2016.02.17-22.51.05:081][534]LogSavePackage: Save=7.205048ms
+[2016.02.17-22.51.05:081][534]LogSavePackage: Moving '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/WallClimbA68F17D6436BE3EAE82299AEF6C656A3.tmp' to '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/WallClimb.uasset'
+[2016.02.17-22.51.05:083][534]LogSavePackage: Total save time: 8.629389ms
+[2016.02.17-22.51.05:083][534]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/WallClimb.uasset
+[2016.02.17-22.51.05:093][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/WallRun" FILE="../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/WallRun.uasset" SILENT=true
+[2016.02.17-22.51.05:102][534]LogSavePackage: Save=7.623264ms
+[2016.02.17-22.51.05:102][534]LogSavePackage: Moving '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/WallRun8CA001AD4E24631EA51F44BC87723684.tmp' to '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/WallRun.uasset'
+[2016.02.17-22.51.05:103][534]LogSavePackage: Total save time: 8.829772ms
+[2016.02.17-22.51.05:103][534]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/WallRun.uasset
+[2016.02.17-22.51.05:110][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/LedgeGrab" FILE="../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/LedgeGrab.uasset" SILENT=true
+[2016.02.17-22.51.05:118][534]LogSavePackage: Save=7.493587ms
+[2016.02.17-22.51.05:118][534]LogSavePackage: Moving '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/LedgeGrab3DF7131E4881859A07A8A7A2C8AE45C5.tmp' to '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/LedgeGrab.uasset'
+[2016.02.17-22.51.05:119][534]LogSavePackage: Total save time: 8.756358ms
+[2016.02.17-22.51.05:119][534]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/LedgeGrab.uasset
+[2016.02.17-22.51.12:216][ 74]LogRenderer: Reallocating scene render targets to support 1208x712 (Frame:58727).
+[2016.02.17-22.51.20:944][104]BlueprintLog: New page: Compile WallClimb
+[2016.02.17-22.51.20:990][104]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.51.21:015][104]BlueprintEditorCompileResults: Info [1316.72] Compile of WallClimb successful! [in 70 ms]
+[2016.02.17-22.51.21:639][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/WallClimb" FILE="../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/WallClimb.uasset" SILENT=true
+[2016.02.17-22.51.21:652][174]LogSavePackage: Save=8.445555ms
+[2016.02.17-22.51.21:652][174]LogSavePackage: Moving '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/WallClimb6FDD854146ED4EED113CE1A44CE8ED11.tmp' to '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/WallClimb.uasset'
+[2016.02.17-22.51.21:654][174]LogSavePackage: Total save time: 13.662424ms
+[2016.02.17-22.51.21:654][174]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/WallClimb.uasset
+[2016.02.17-22.51.33:148][447]BlueprintLog: New page: Compile WallRun
+[2016.02.17-22.51.33:194][447]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.51.33:219][447]BlueprintEditorCompileResults: Info [1328.93] Compile of WallRun successful! [in 70 ms]
+[2016.02.17-22.51.34:072][542]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/WallRun" FILE="../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/WallRun.uasset" SILENT=true
+[2016.02.17-22.51.34:083][542]LogSavePackage: Save=7.985818ms
+[2016.02.17-22.51.34:083][542]LogSavePackage: Moving '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/WallRunE835CD4F4D67725372626D85DCA27F41.tmp' to '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/WallRun.uasset'
+[2016.02.17-22.51.34:084][542]LogSavePackage: Total save time: 11.470851ms
+[2016.02.17-22.51.34:084][542]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/WallRun.uasset
+[2016.02.17-22.51.43:344][567]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.51.43:389][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/LedgeGrab" FILE="../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/LedgeGrab.uasset" SILENT=true
+[2016.02.17-22.51.43:399][567]LogSavePackage: Save=7.931962ms
+[2016.02.17-22.51.43:399][567]LogSavePackage: Moving '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/LedgeGrab7AF9CA0C46DAD773430ABB83537BA01F.tmp' to '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/LedgeGrab.uasset'
+[2016.02.17-22.51.43:401][567]LogSavePackage: Total save time: 11.477768ms
+[2016.02.17-22.51.43:401][567]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/LedgeGrab.uasset
+[2016.02.17-22.51.45:856][862]BlueprintLog: New page: Compile LedgeGrab
+[2016.02.17-22.51.45:927][862]BlueprintEditorCompileResults: Info [1341.64] Compile of LedgeGrab successful! [in 71 ms]
+[2016.02.17-22.52.25:785][548]BlueprintLog: New page: Compile LedgeGrab
+[2016.02.17-22.52.25:825][548]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.52.25:850][548]BlueprintEditorCompileResults: Info [1381.56] Compile of LedgeGrab successful! [in 65 ms]
+[2016.02.17-22.52.26:654][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/WallClimb" FILE="../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/WallClimb.uasset" SILENT=true
+[2016.02.17-22.52.26:666][635]LogSavePackage: Save=8.599603ms
+[2016.02.17-22.52.26:666][635]LogSavePackage: Moving '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/WallClimbEE1740A942D50B114AC0DBA802ABA959.tmp' to '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/WallClimb.uasset'
+[2016.02.17-22.52.26:667][635]LogSavePackage: Total save time: 11.651974ms
+[2016.02.17-22.52.26:667][635]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/WallClimb.uasset
+[2016.02.17-22.52.26:673][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/WallRun" FILE="../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/WallRun.uasset" SILENT=true
+[2016.02.17-22.52.26:683][635]LogSavePackage: Save=8.223810ms
+[2016.02.17-22.52.26:683][635]LogSavePackage: Moving '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/WallRunBF7D4A71483A4DB917107D9549AEE4D3.tmp' to '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/WallRun.uasset'
+[2016.02.17-22.52.26:685][635]LogSavePackage: Total save time: 11.305969ms
+[2016.02.17-22.52.26:685][635]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/WallRun.uasset
+[2016.02.17-22.52.26:690][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/LedgeGrab" FILE="../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/LedgeGrab.uasset" SILENT=true
+[2016.02.17-22.52.26:701][635]LogSavePackage: Save=8.188005ms
+[2016.02.17-22.52.26:701][635]LogSavePackage: Moving '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/LedgeGrab7B3DEF9146A2B253AB425FA4D9DF4A09.tmp' to '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/LedgeGrab.uasset'
+[2016.02.17-22.52.26:702][635]LogSavePackage: Total save time: 11.372764ms
+[2016.02.17-22.52.26:702][635]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/LedgeGrab.uasset
+[2016.02.17-22.52.29:889][ 17]BlueprintLog: New page: Compile WallClimb
+[2016.02.17-22.52.29:956][ 17]BlueprintEditorCompileResults: Info [1385.67] Compile of WallClimb successful! [in 66 ms]
+[2016.02.17-22.52.31:451][194]BlueprintLog: New page: Compile WallRun
+[2016.02.17-22.52.31:517][194]BlueprintEditorCompileResults: Info [1387.23] Compile of WallRun successful! [in 65 ms]
+[2016.02.17-22.55.54:959][800]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.02.17-22.55.56:365][962]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-22.55.56:365][962]PIE: New page: PIE session: swapMap (Feb 18, 2016, 8:55:56 PM)
+[2016.02.17-22.55.56:365][962]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_swapMap
+[2016.02.17-22.55.56:368][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002770s)
+[2016.02.17-22.55.56:369][962]LogAIModule: Creating AISystem for world swapMap
+[2016.02.17-22.55.56:369][962]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2016.02.17-22.55.56:369][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/swapMap.swapMap to /Game/Maps/UEDPIE_0_swapMap.swapMap (0.003562s)
+[2016.02.17-22.55.56:369][962]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-22.55.56:401][962]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-22.55.56:405][962]LogInit: FAudioDevice initialized.
+[2016.02.17-22.55.56:435][962]LogWorld: Game class is 'SwapGameMode_C'
+[2016.02.17-22.55.56:438][962]LogWorld: Bringing World /Game/Maps/UEDPIE_0_swapMap.swapMap up for play (max tick rate 0) at 2016.02.18-09.55.56
+[2016.02.17-22.55.56:438][962]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_swapMap.swapMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-22.55.56:438][962]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_swapMap.swapMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-22.55.56:438][962]LogWorld: Bringing up level for play took: 0.003013
+[2016.02.17-22.55.56:440][962]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_swapMap 0.118
+[2016.02.17-22.56.08:076][348]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000B721CCC0
+[2016.02.17-22.56.09:553][522]MapCheck: New page: Map Check
+[2016.02.17-22.56.09:578][522]Cmd: MAP REBUILD ALLVISIBLE
+[2016.02.17-22.56.09:580][522]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.02.17-22.56.09:659][522]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FC10360
+[2016.02.17-22.56.09:671][522]MapCheck:Warning: Warning WorldSettings_1 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2016.02.17-22.56.09:671][522]LogStats:          STAT_HLOD_BuildClusters - 37.244 ms
+[2016.02.17-22.56.09:672][522]LightingResults: New page: Lighting Build - Feb 18, 2016, 8:56:09 PM
+[2016.02.17-22.56.14:016][522]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.02.17-22.56.14:017][522]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.02.17-22.56.14:017][522]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.02.17-22.56.14:017][522]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.02.17-22.56.14:017][522]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.02.17-22.56.14:017][522]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.02.17-22.56.14:138][522]LogEditorBuildUtils: Build time 0:00:04
+[2016.02.17-22.56.14:153][522]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2016.02.17-22.56.14:158][522]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2016.02.17-22.56.15:915][591]Job is a success!
+[2016.02.17-22.56.16:007][592]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.02.17-22.56.16:022][592]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2016.02.17-22.56.16:023][592]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2016.02.17-22.56.16:023][592]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.02.17-22.56.16:027][592]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.02.17-22.56.16:042][592]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.02.17-22.56.16:046][592]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.02.17-22.56.16:067][592]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.02.17-22.56.16:082][592]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2016.02.17-22.56.16:090][592]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2016.02.17-22.56.16:098][592]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8)
+[2016.02.17-22.56.16:100][592]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8)
+[2016.02.17-22.56.16:128][592]Lightmass on HARST-D2A9E8: 811 ms total, 63 ms importing, 0 ms setup, 282 ms photons, 435 ms processing, 0 ms extra exporting [10/10 mappings]. Threads: 2.88 sec total, 540 ms processing.
+[2016.02.17-22.56.16:179][592]LogStaticLightingSystem: Illumination: 6.48 sec (106 ms encoding lightmaps)
+[2016.02.17-22.56.16:180][592]LogStaticLightingSystem: Lightmap texture memory:  0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 8 textures
+[2016.02.17-22.56.16:180][592]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2016.02.17-22.56.17:024][593]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.02.17-22.56.17:024][593]MapCheck: New page: swapMap - Feb 18, 2016, 8:56:17 PM
+[2016.02.17-22.56.17:063][593]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.762ms to complete.
+[2016.02.17-22.56.17:924][689]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-22.56.17:924][689]PIE: New page: PIE session: swapMap (Feb 18, 2016, 8:56:17 PM)
+[2016.02.17-22.56.17:924][689]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_swapMap
+[2016.02.17-22.56.17:926][689]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002514s)
+[2016.02.17-22.56.17:927][689]LogAIModule: Creating AISystem for world swapMap
+[2016.02.17-22.56.17:927][689]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2016.02.17-22.56.17:927][689]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/swapMap.swapMap to /Game/Maps/UEDPIE_0_swapMap.swapMap (0.003260s)
+[2016.02.17-22.56.17:953][689]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-22.56.17:956][689]LogInit: FAudioDevice initialized.
+[2016.02.17-22.56.17:987][689]LogWorld: Game class is 'SwapGameMode_C'
+[2016.02.17-22.56.17:990][689]LogWorld: Bringing World /Game/Maps/UEDPIE_0_swapMap.swapMap up for play (max tick rate 0) at 2016.02.18-09.56.17
+[2016.02.17-22.56.17:990][689]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_swapMap.swapMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-22.56.17:990][689]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_swapMap.swapMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-22.56.17:991][689]LogWorld: Bringing up level for play took: 0.002690
+[2016.02.17-22.56.17:992][689]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_swapMap -0.329
+[2016.02.17-22.56.57:124][370]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006D03FCE0
+[2016.02.17-22.58.22:541][557]LogSavePackage: Save=35.270042ms
+[2016.02.17-22.58.22:541][557]LogSavePackage: Moving '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/swapMap9D862075438B53B096EB2D972D95DA87.tmp' to '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/Maps/swapMap.umap'
+[2016.02.17-22.58.22:543][557]LogSavePackage: Total save time: 41.234285ms
+[2016.02.17-22.58.22:543][557]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/Maps/swapMap.umap
+[2016.02.17-22.58.22:561][557]LogFileHelpers: Saving map 'swapMap' took 0.119
+[2016.02.17-23.02.18:259][120]BlueprintLog: New page: Compile SwapMan
+[2016.02.17-23.02.18:328][120]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-23.02.18:363][120]BlueprintEditorCompileResults: Info [1974.08] Compile of SwapMan successful! [in 103 ms]
+[2016.02.17-23.02.18:915][185]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-23.02.18:971][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/SwapMan" FILE="../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset" SILENT=true
+[2016.02.17-23.02.19:110][185]LogSavePackage: Save=134.013229ms
+[2016.02.17-23.02.19:110][185]LogSavePackage: Moving '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/SwapMan1C045F0B44620BEA5A591D931FA602AF.tmp' to '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset'
+[2016.02.17-23.02.19:111][185]LogSavePackage: Total save time: 139.737371ms
+[2016.02.17-23.02.19:111][185]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset
+[2016.02.17-23.02.20:290][324]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-23.02.20:290][324]PIE: New page: PIE session: swapMap (Feb 18, 2016, 9:02:20 PM)
+[2016.02.17-23.02.20:290][324]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_swapMap
+[2016.02.17-23.02.20:293][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002586s)
+[2016.02.17-23.02.20:293][324]LogAIModule: Creating AISystem for world swapMap
+[2016.02.17-23.02.20:293][324]LogPlayLevel: PIE: World Init took: (0.000499s)
+[2016.02.17-23.02.20:293][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/swapMap.swapMap to /Game/Maps/UEDPIE_0_swapMap.swapMap (0.003240s)
+[2016.02.17-23.02.20:293][324]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-23.02.20:316][324]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-23.02.20:322][324]LogInit: FAudioDevice initialized.
+[2016.02.17-23.02.20:353][324]LogWorld: Game class is 'SwapGameMode_C'
+[2016.02.17-23.02.20:356][324]LogWorld: Bringing World /Game/Maps/UEDPIE_0_swapMap.swapMap up for play (max tick rate 0) at 2016.02.18-10.02.20
+[2016.02.17-23.02.20:357][324]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_swapMap.swapMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-23.02.20:357][324]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_swapMap.swapMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-23.02.20:357][324]LogWorld: Bringing up level for play took: 0.002975
+[2016.02.17-23.02.20:359][324]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_swapMap 0.034
+[2016.02.17-23.02.33:843][925]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000058144720
+[2016.02.17-23.02.57:219][669]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-23.03.34:766][954]BlueprintLog: New page: Compile SwapMan
+[2016.02.17-23.03.34:844][954]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2016.02.17-23.03.34:873][954]BlueprintEditorCompileResults: Info [2050.59] Compile of SwapMan successful! [in 106 ms]
+[2016.02.17-23.03.35:643][ 45]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-23.03.35:710][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/SwapMan" FILE="../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset" SILENT=true
+[2016.02.17-23.03.35:855][ 45]LogSavePackage: Save=142.685944ms
+[2016.02.17-23.03.35:855][ 45]LogSavePackage: Moving '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/SwapMan3000997F45D37B42732E9F9F08CE23EF.tmp' to '../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset'
+[2016.02.17-23.03.35:857][ 45]LogSavePackage: Total save time: 146.299448ms
+[2016.02.17-23.03.35:857][ 45]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/BluePrints/SwapMan.uasset
+[2016.02.17-23.03.37:401][228]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-23.03.37:401][228]PIE: New page: PIE session: swapMap (Feb 18, 2016, 9:03:37 PM)
+[2016.02.17-23.03.37:401][228]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_swapMap
+[2016.02.17-23.03.37:404][228]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002494s)
+[2016.02.17-23.03.37:404][228]LogAIModule: Creating AISystem for world swapMap
+[2016.02.17-23.03.37:404][228]LogPlayLevel: PIE: World Init took: (0.000524s)
+[2016.02.17-23.03.37:405][228]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/swapMap.swapMap to /Game/Maps/UEDPIE_0_swapMap.swapMap (0.003195s)
+[2016.02.17-23.03.37:405][228]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-23.03.37:431][228]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-23.03.37:435][228]LogInit: FAudioDevice initialized.
+[2016.02.17-23.03.37:468][228]LogWorld: Game class is 'SwapGameMode_C'
+[2016.02.17-23.03.37:471][228]LogWorld: Bringing World /Game/Maps/UEDPIE_0_swapMap.swapMap up for play (max tick rate 0) at 2016.02.18-10.03.37
+[2016.02.17-23.03.37:471][228]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_swapMap.swapMap:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-23.03.37:471][228]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_swapMap.swapMap:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-23.03.37:472][228]LogWorld: Bringing up level for play took: 0.002781
+[2016.02.17-23.03.37:474][228]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_swapMap -0.855
+[2016.02.17-23.03.40:169][550]LogBlueprintUserMessages: [SwapMan_C_12] X=-7147.548 Y=237298.531 Z=-31851.246
+[2016.02.17-23.03.45:557][189]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000BBE49620
+[2016.02.17-23.04.18:720][116]BlueprintLog: New page: Compile SwapMan
+[2016.02.17-23.04.18:799][116]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-23.04.18:828][116]BlueprintEditorCompileResults: Info [2094.54] Compile of SwapMan successful! [in 108 ms]
+[2016.02.17-23.04.19:657][214]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.17-23.04.19:730][214]Cmd: OBJ SAVEPA
