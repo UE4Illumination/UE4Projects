@@ -1,0 +1,909 @@
+﻿[2016.02.22-23.02.56:874][  0]Log file open, 02/23/16 10:02:56
+[2016.02.22-23.02.56:874][  0]LogInit:Display: Running engine for game: Swap
+[2016.02.22-23.02.56:874][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.22-23.02.56:874][  0]LogInit:Display: RandInit(1919994735) SRandInit(1919994737).
+[2016.02.22-23.02.56:874][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.22-23.02.56:875][  0]LogStats: Stats thread started at 0.423684
+[2016.02.22-23.02.56:875][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.22-23.02.56:875][  0]LogInit: API Version: 2758231
+[2016.02.22-23.02.56:875][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.02.22-23.02.56:875][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.22-23.02.56:875][  0]LogInit: Build Configuration: Development
+[2016.02.22-23.02.56:875][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.22-23.02.56:875][  0]LogInit: Command line:  
+[2016.02.22-23.02.56:875][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.22-23.02.56:875][  0]LogInit: Rocket: 1
+[2016.02.22-23.02.56:888][  0]LogInit: Using libcurl 7.41.0
+[2016.02.22-23.02.56:888][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.22-23.02.56:888][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.22-23.02.56:888][  0]LogInit:  - other features:
+[2016.02.22-23.02.56:888][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.22-23.02.56:888][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.22-23.02.56:889][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.22-23.02.56:889][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.22-23.02.56:889][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.22-23.02.56:889][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.22-23.02.56:889][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.22-23.02.56:889][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.22-23.02.56:889][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.22-23.02.56:890][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.22-23.02.56:904][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.22-23.02.56:916][  0]LogInit: Object subsystem initialized
+[2016.02.22-23.02.56:941][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.22-23.02.56:941][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.22-23.02.56:948][  0]LogInit: Computer: HARST-D2A9E8
+[2016.02.22-23.02.56:949][  0]LogInit: User: jackcarolan
+[2016.02.22-23.02.56:949][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.02.22-23.02.56:949][  0]LogInit: High frequency timer resolution =3.323613 MHz
+[2016.02.22-23.02.56:949][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2016.02.22-23.02.56:949][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.22-23.02.56:949][  0]LogMemory: Process Physical Memory: 56.93 MB used, 56.93 MB peak
+[2016.02.22-23.02.56:949][  0]LogMemory: Process Virtual Memory: 58.60 MB used, 58.60 MB peak
+[2016.02.22-23.02.56:949][  0]LogMemory: Physical Memory: 3142.00 MB used, 16345.20 MB total
+[2016.02.22-23.02.56:949][  0]LogMemory: Virtual Memory: 352.91 MB used, 8388608.00 MB total
+[2016.02.22-23.02.57:054][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.02.22-23.02.57:434][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660 Ti (Feature Level 11_0)
+[2016.02.22-23.02.57:434][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2016.02.22-23.02.57:434][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.22-23.02.57:437][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.22-23.02.57:437][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.22-23.02.57:444][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.22-23.02.57:471][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Intermediate/Shaders/WorkingDirectory/3672/).
+[2016.02.22-23.02.57:471][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/JACK~1.CAR/AppData/Local/Temp/UnrealShaderWorkingDir/D9F0E0F44F09779A7814C18D39C184CE/'.
+[2016.02.22-23.02.57:471][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.22-23.02.58:508][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.22-23.02.58:513][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.22-23.02.58:517][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.22-23.02.58:521][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.22-23.02.58:525][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.22-23.02.58:528][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.22-23.02.58:532][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.22-23.02.58:535][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.22-23.02.58:539][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.22-23.02.58:543][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.22-23.02.58:547][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.22-23.02.58:555][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.22-23.02.58:555][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.22-23.02.58:556][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.22-23.02.58:578][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.22-23.02.58:581][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.22-23.02.58:585][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.22-23.02.58:590][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.22-23.02.58:591][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.22-23.02.58:680][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.22-23.02.58:816][  0]LogDerivedDataCache: Loaded boot cache 0.14s 41MB C:/Users/jack.carolan/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.22-23.02.58:816][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jack.carolan/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.22-23.02.58:816][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.22-23.02.58:816][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.22-23.02.58:816][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.22-23.02.58:816][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.22-23.02.58:873][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.22-23.02.58:885][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jack.carolan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.22-23.02.59:371][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.22-23.02.59:374][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.22-23.02.59:474][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.22-23.02.59:474][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.22-23.02.59:920][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.22-23.03.01:530][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.22-23.03.01:677][  0]LogAssetRegistry: FAssetRegistry took 0.0121 seconds to start up
+[2016.02.22-23.03.01:896][  0]SourceControl: Info Source control is disabled
+[2016.02.22-23.03.01:933][  0]SourceControl: Info Source control is disabled
+[2016.02.22-23.03.01:945][  0]SourceControl: Info Source control is disabled
+[2016.02.22-23.03.01:954][  0]SourceControl: Info Source control is disabled
+[2016.02.22-23.03.02:176][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.02.22-23.03.02:176][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.02.22-23.03.02:258][  0]LogEngine: Initializing Engine...
+[2016.02.22-23.03.02:261][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.22-23.03.02:263][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.22-23.03.02:398][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.22-23.03.02:413][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.22-23.03.02:419][  0]LogInit: FAudioDevice initialized.
+[2016.02.22-23.03.02:440][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/jack.carolan/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.22-23.03.02:442][  0]LogInit: Texture streaming: Enabled
+[2016.02.22-23.03.02:447][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.22-23.03.02:447][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.22-23.03.02:448][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 46cfea764061f1b9c41e02b8bd51e989|aeaa3af4045243359e0d8c4eedc51930|83405bc8-af7b-4bc6-aae5-6e4514ef7c9f
+[2016.02.22-23.03.02:448][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.22-23.03.02:469][  0]LogInit: Transaction tracking system initialized
+[2016.02.22-23.03.02:507][  0]BlueprintLog: New page: Editor Load
+[2016.02.22-23.03.02:684][  0]LocalizationService: Info Localization service is disabled
+[2016.02.22-23.03.02:781][  0]LogConsoleResponse:Display: 
+[2016.02.22-23.03.02:912][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.22-23.03.03:066][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/' took 0.01s
+[2016.02.22-23.03.03:066][  0]SourceControl: Info Source control is disabled
+[2016.02.22-23.03.03:067][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/Maps/swapMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.22-23.03.03:069][  0]LightingResults: New page: Lighting Build
+[2016.02.22-23.03.03:075][  0]MapCheck: New page: Map Check
+[2016.02.22-23.03.03:075][  0]LightingResults: New page: Lighting Build
+[2016.02.22-23.03.03:089][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002245FB00
+[2016.02.22-23.03.03:374][  0]LogAIModule: Creating AISystem for world swapMap
+[2016.02.22-23.03.03:394][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.22-23.03.03:395][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.22-23.03.03:424][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 28.281ms to complete.
+[2016.02.22-23.03.03:424][  0]LogFileHelpers: Loading map 'swapMap' took 0.357
+[2016.02.22-23.03.03:617][  0]LogCollectionManager: Loaded 0 collections in 0.001370 seconds
+[2016.02.22-23.03.03:666][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Saved/Collections/' took 0.01s
+[2016.02.22-23.03.03:666][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/Developers/jackcarolan/Collections/' took 0.01s
+[2016.02.22-23.03.03:666][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jack.carolan/Desktop/Git/UE4Projects/GroupProject/Swap/Swap/Content/Collections/' took 0.01s
+[2016.02.22-23.03.03:666][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.02.22-23.03.03:674][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 1893 classes and 338 folders.
+[2016.02.22-23.03.03:682][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.02.22-23.03.03:768][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.02.22-23.03.03:777][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.02.22-23.03.03:884][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.22-23.03.03:895][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.22-23.03.03:917][  0]LogLoad: Full Startup: 7.85 seconds (BP compile: 0.07 seconds)
+[2016.02.22-23.03.03:927][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.22-23.03.03:987][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.22-23.03.04:121][  0]LogRenderer: Reallocating scene render targets to support 1208x552 (Frame:2).
+[2016.02.22-23.03.04:233][  2]LogAssetRegistry: Asset discovery search completed in 2.5673 seconds
+[2016.02.22-23.03.04:233][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.02.22-23.03.04:233][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2016.02.22-23.03.33:322][415]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 E:\PrototypeAnims\WallClimb.fbx)
+[2016.02.22-23.03.34:186][415]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.02.22-23.03.34:186][415]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.02.22-23.03.34:186][415]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.02.22-23.03.34:186][415]LogFbx: ItemName: NodeAttribute, ItemCount : 73
+[2016.02.22-23.03.34:186][415]LogFbx: ItemName: Model, ItemCount : 93
+[2016.02.22-23.03.34:186][415]LogFbx: ItemName: Geometry, ItemCount : 20
+[2016.02.22-23.03.34:186][415]LogFbx: ItemName: Material, ItemCount : 2
+[2016.02.22-23.03.34:186][415]LogFbx: ItemName: Texture, ItemCount : 3
+[2016.02.22-23.03.34:186][415]LogFbx: ItemName: AnimationCurveNode, ItemCount : 271
+[2016.02.22-23.03.34:186][415]LogFbx: ItemName: Container, ItemCount : 1
+[2016.02.22-23.03.34:186][415]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2016.02.22-23.03.34:186][415]LogFbx: ItemName: AnimationCurve, ItemCount : 591
+[2016.02.22-23.03.34:186][415]LogFbx: ItemName: Pose, ItemCount : 18
+[2016.02.22-23.03.34:186][415]LogFbx: ItemName: Deformer, ItemCount : 86
+[2016.02.22-23.03.34:186][415]LogFbx: ItemName: Video, ItemCount : 3
+[2016.02.22-23.03.34:251][415]LogFbx: Loading FBX Scene from E:\PrototypeAnims\WallClimb.fbx
+[2016.02.22-23.03.34:732][415]LogFbx: FBX Scene Loaded Succesfully
+[2016.02.22-23.03.47:904][415]LogFbx: Loading FBX Scene from E:\PrototypeAnims\WallClimb.fbx
+[2016.02.22-23.03.48:375][415]LogFbx: FBX Scene Loaded Succesfully
+[2016.02.22-23.03.48:419][415]LogFbx: =================================================
+[2016.02.22-23.03.48:419][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_calf_l] 
+[2016.02.22-23.03.48:419][415]LogFbx: 	Total Deformer Count 471512960.
+[2016.02.22-23.03.48:419][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:419][415]LogFbx: =================================================
+[2016.02.22-23.03.48:419][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:419][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_calf_l (Type Mesh).
+[2016.02.22-23.03.48:419][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_calf_l]
+[2016.02.22-23.03.48:419][415]LogFbx: =================================================
+[2016.02.22-23.03.48:419][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_calf_r] 
+[2016.02.22-23.03.48:419][415]LogFbx: 	Total Deformer Count 471512960.
+[2016.02.22-23.03.48:419][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:419][415]LogFbx: =================================================
+[2016.02.22-23.03.48:419][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:419][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_calf_r (Type Mesh).
+[2016.02.22-23.03.48:419][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_calf_r]
+[2016.02.22-23.03.48:419][415]LogFbx: =================================================
+[2016.02.22-23.03.48:419][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_foot_l] 
+[2016.02.22-23.03.48:419][415]LogFbx: 	Total Deformer Count 471512960.
+[2016.02.22-23.03.48:419][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:419][415]LogFbx: =================================================
+[2016.02.22-23.03.48:419][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:419][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_foot_l (Type Mesh).
+[2016.02.22-23.03.48:419][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_foot_l]
+[2016.02.22-23.03.48:419][415]LogFbx: =================================================
+[2016.02.22-23.03.48:419][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_foot_r] 
+[2016.02.22-23.03.48:419][415]LogFbx: 	Total Deformer Count 471512960.
+[2016.02.22-23.03.48:419][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:419][415]LogFbx: =================================================
+[2016.02.22-23.03.48:419][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:419][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_foot_r (Type Mesh).
+[2016.02.22-23.03.48:419][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_foot_r]
+[2016.02.22-23.03.48:419][415]LogFbx: =================================================
+[2016.02.22-23.03.48:419][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_thigh_l] 
+[2016.02.22-23.03.48:419][415]LogFbx: 	Total Deformer Count 471512960.
+[2016.02.22-23.03.48:419][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:419][415]LogFbx: =================================================
+[2016.02.22-23.03.48:419][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:419][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_thigh_l (Type Mesh).
+[2016.02.22-23.03.48:419][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_thigh_l]
+[2016.02.22-23.03.48:419][415]LogFbx: =================================================
+[2016.02.22-23.03.48:419][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_thigh_r] 
+[2016.02.22-23.03.48:419][415]LogFbx: 	Total Deformer Count 471512960.
+[2016.02.22-23.03.48:419][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:419][415]LogFbx: =================================================
+[2016.02.22-23.03.48:419][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:419][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_thigh_r (Type Mesh).
+[2016.02.22-23.03.48:419][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_thigh_r]
+[2016.02.22-23.03.48:419][415]LogFbx: =================================================
+[2016.02.22-23.03.48:419][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_pelvis] 
+[2016.02.22-23.03.48:419][415]LogFbx: 	Total Deformer Count 471512960.
+[2016.02.22-23.03.48:419][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:419][415]LogFbx: =================================================
+[2016.02.22-23.03.48:419][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:419][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_pelvis (Type Mesh).
+[2016.02.22-23.03.48:419][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_pelvis]
+[2016.02.22-23.03.48:419][415]LogFbx: =================================================
+[2016.02.22-23.03.48:420][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_lower_torso] 
+[2016.02.22-23.03.48:420][415]LogFbx: 	Total Deformer Count 472168256.
+[2016.02.22-23.03.48:420][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:420][415]LogFbx: =================================================
+[2016.02.22-23.03.48:420][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:420][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_lower_torso (Type Mesh).
+[2016.02.22-23.03.48:420][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_lower_torso]
+[2016.02.22-23.03.48:420][415]LogFbx: =================================================
+[2016.02.22-23.03.48:420][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_neck] 
+[2016.02.22-23.03.48:420][415]LogFbx: 	Total Deformer Count 471445456.
+[2016.02.22-23.03.48:420][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:420][415]LogFbx: =================================================
+[2016.02.22-23.03.48:420][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:420][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_neck (Type Mesh).
+[2016.02.22-23.03.48:420][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_neck]
+[2016.02.22-23.03.48:420][415]LogFbx: =================================================
+[2016.02.22-23.03.48:420][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_head] 
+[2016.02.22-23.03.48:420][415]LogFbx: 	Total Deformer Count 471445456.
+[2016.02.22-23.03.48:420][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:420][415]LogFbx: =================================================
+[2016.02.22-23.03.48:420][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:420][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_head (Type Mesh).
+[2016.02.22-23.03.48:420][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_head]
+[2016.02.22-23.03.48:420][415]LogFbx: =================================================
+[2016.02.22-23.03.48:420][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_arm_r] 
+[2016.02.22-23.03.48:420][415]LogFbx: 	Total Deformer Count 471511552.
+[2016.02.22-23.03.48:420][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:420][415]LogFbx: =================================================
+[2016.02.22-23.03.48:420][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:420][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_arm_r (Type Mesh).
+[2016.02.22-23.03.48:420][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_arm_r]
+[2016.02.22-23.03.48:420][415]LogFbx: =================================================
+[2016.02.22-23.03.48:420][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_forearm_r] 
+[2016.02.22-23.03.48:420][415]LogFbx: 	Total Deformer Count 471511552.
+[2016.02.22-23.03.48:420][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:420][415]LogFbx: =================================================
+[2016.02.22-23.03.48:420][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:420][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_forearm_r (Type Mesh).
+[2016.02.22-23.03.48:420][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_forearm_r]
+[2016.02.22-23.03.48:420][415]LogFbx: =================================================
+[2016.02.22-23.03.48:420][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_hand_r] 
+[2016.02.22-23.03.48:420][415]LogFbx: 	Total Deformer Count 471511552.
+[2016.02.22-23.03.48:420][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:420][415]LogFbx: =================================================
+[2016.02.22-23.03.48:420][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:420][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_hand_r (Type Mesh).
+[2016.02.22-23.03.48:420][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_hand_r]
+[2016.02.22-23.03.48:420][415]LogFbx: =================================================
+[2016.02.22-23.03.48:420][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_arm_l] 
+[2016.02.22-23.03.48:420][415]LogFbx: 	Total Deformer Count 471511552.
+[2016.02.22-23.03.48:420][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:420][415]LogFbx: =================================================
+[2016.02.22-23.03.48:420][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:420][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_arm_l (Type Mesh).
+[2016.02.22-23.03.48:420][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_arm_l]
+[2016.02.22-23.03.48:420][415]LogFbx: =================================================
+[2016.02.22-23.03.48:420][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_forearm_l] 
+[2016.02.22-23.03.48:420][415]LogFbx: 	Total Deformer Count 471511552.
+[2016.02.22-23.03.48:420][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:420][415]LogFbx: =================================================
+[2016.02.22-23.03.48:420][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:420][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_forearm_l (Type Mesh).
+[2016.02.22-23.03.48:420][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_forearm_l]
+[2016.02.22-23.03.48:420][415]LogFbx: =================================================
+[2016.02.22-23.03.48:420][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_hand_l] 
+[2016.02.22-23.03.48:420][415]LogFbx: 	Total Deformer Count 471511552.
+[2016.02.22-23.03.48:420][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:420][415]LogFbx: =================================================
+[2016.02.22-23.03.48:420][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:420][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_hand_l (Type Mesh).
+[2016.02.22-23.03.48:420][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_hand_l]
+[2016.02.22-23.03.48:420][415]LogFbx: =================================================
+[2016.02.22-23.03.48:420][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_chest] 
+[2016.02.22-23.03.48:420][415]LogFbx: 	Total Deformer Count 471511552.
+[2016.02.22-23.03.48:420][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:420][415]LogFbx: =================================================
+[2016.02.22-23.03.48:420][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:420][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_chest (Type Mesh).
+[2016.02.22-23.03.48:420][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_chest]
+[2016.02.22-23.03.48:420][415]LogFbx: =================================================
+[2016.02.22-23.03.48:420][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_logo] 
+[2016.02.22-23.03.48:420][415]LogFbx: 	Total Deformer Count 471445456.
+[2016.02.22-23.03.48:420][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:420][415]LogFbx: =================================================
+[2016.02.22-23.03.48:420][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:420][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_logo (Type Mesh).
+[2016.02.22-23.03.48:420][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_logo]
+[2016.02.22-23.03.48:427][415]LogFbx: =================================================
+[2016.02.22-23.03.48:427][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_calf_l] 
+[2016.02.22-23.03.48:427][415]LogFbx: 	Total Deformer Count 471510528.
+[2016.02.22-23.03.48:427][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:427][415]LogFbx: =================================================
+[2016.02.22-23.03.48:427][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:427][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_calf_l (Type Mesh).
+[2016.02.22-23.03.48:427][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_calf_l]
+[2016.02.22-23.03.48:427][415]LogFbx: =================================================
+[2016.02.22-23.03.48:427][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_calf_r] 
+[2016.02.22-23.03.48:427][415]LogFbx: 	Total Deformer Count 471510528.
+[2016.02.22-23.03.48:427][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:427][415]LogFbx: =================================================
+[2016.02.22-23.03.48:427][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:428][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_calf_r (Type Mesh).
+[2016.02.22-23.03.48:428][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_calf_r]
+[2016.02.22-23.03.48:428][415]LogFbx: =================================================
+[2016.02.22-23.03.48:428][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_foot_l] 
+[2016.02.22-23.03.48:428][415]LogFbx: 	Total Deformer Count 471510528.
+[2016.02.22-23.03.48:428][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:428][415]LogFbx: =================================================
+[2016.02.22-23.03.48:428][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:428][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_foot_l (Type Mesh).
+[2016.02.22-23.03.48:428][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_foot_l]
+[2016.02.22-23.03.48:428][415]LogFbx: =================================================
+[2016.02.22-23.03.48:428][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_foot_r] 
+[2016.02.22-23.03.48:428][415]LogFbx: 	Total Deformer Count 471510528.
+[2016.02.22-23.03.48:428][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:428][415]LogFbx: =================================================
+[2016.02.22-23.03.48:428][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:428][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_foot_r (Type Mesh).
+[2016.02.22-23.03.48:428][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_foot_r]
+[2016.02.22-23.03.48:428][415]LogFbx: =================================================
+[2016.02.22-23.03.48:428][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_thigh_l] 
+[2016.02.22-23.03.48:428][415]LogFbx: 	Total Deformer Count 471510528.
+[2016.02.22-23.03.48:428][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:428][415]LogFbx: =================================================
+[2016.02.22-23.03.48:428][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:428][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_thigh_l (Type Mesh).
+[2016.02.22-23.03.48:428][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_thigh_l]
+[2016.02.22-23.03.48:428][415]LogFbx: =================================================
+[2016.02.22-23.03.48:428][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_thigh_r] 
+[2016.02.22-23.03.48:428][415]LogFbx: 	Total Deformer Count 471510528.
+[2016.02.22-23.03.48:428][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:428][415]LogFbx: =================================================
+[2016.02.22-23.03.48:428][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:428][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_thigh_r (Type Mesh).
+[2016.02.22-23.03.48:428][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_thigh_r]
+[2016.02.22-23.03.48:428][415]LogFbx: =================================================
+[2016.02.22-23.03.48:428][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_pelvis] 
+[2016.02.22-23.03.48:428][415]LogFbx: 	Total Deformer Count 471510528.
+[2016.02.22-23.03.48:428][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:428][415]LogFbx: =================================================
+[2016.02.22-23.03.48:428][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:428][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_pelvis (Type Mesh).
+[2016.02.22-23.03.48:428][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_pelvis]
+[2016.02.22-23.03.48:428][415]LogFbx: =================================================
+[2016.02.22-23.03.48:428][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_lower_torso] 
+[2016.02.22-23.03.48:428][415]LogFbx: 	Total Deformer Count 471414112.
+[2016.02.22-23.03.48:428][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:428][415]LogFbx: =================================================
+[2016.02.22-23.03.48:428][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:428][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_lower_torso (Type Mesh).
+[2016.02.22-23.03.48:428][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_lower_torso]
+[2016.02.22-23.03.48:428][415]LogFbx: =================================================
+[2016.02.22-23.03.48:428][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_neck] 
+[2016.02.22-23.03.48:428][415]LogFbx: 	Total Deformer Count 471445456.
+[2016.02.22-23.03.48:428][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:428][415]LogFbx: =================================================
+[2016.02.22-23.03.48:428][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:428][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_neck (Type Mesh).
+[2016.02.22-23.03.48:428][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_neck]
+[2016.02.22-23.03.48:428][415]LogFbx: =================================================
+[2016.02.22-23.03.48:428][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_head] 
+[2016.02.22-23.03.48:428][415]LogFbx: 	Total Deformer Count 471445456.
+[2016.02.22-23.03.48:428][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:428][415]LogFbx: =================================================
+[2016.02.22-23.03.48:428][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:428][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_head (Type Mesh).
+[2016.02.22-23.03.48:428][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_head]
+[2016.02.22-23.03.48:428][415]LogFbx: =================================================
+[2016.02.22-23.03.48:428][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_arm_r] 
+[2016.02.22-23.03.48:428][415]LogFbx: 	Total Deformer Count 471509248.
+[2016.02.22-23.03.48:428][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:428][415]LogFbx: =================================================
+[2016.02.22-23.03.48:428][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:428][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_arm_r (Type Mesh).
+[2016.02.22-23.03.48:428][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_arm_r]
+[2016.02.22-23.03.48:428][415]LogFbx: =================================================
+[2016.02.22-23.03.48:428][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_forearm_r] 
+[2016.02.22-23.03.48:428][415]LogFbx: 	Total Deformer Count 471509248.
+[2016.02.22-23.03.48:428][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:428][415]LogFbx: =================================================
+[2016.02.22-23.03.48:428][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:428][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_forearm_r (Type Mesh).
+[2016.02.22-23.03.48:428][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_forearm_r]
+[2016.02.22-23.03.48:428][415]LogFbx: =================================================
+[2016.02.22-23.03.48:428][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_hand_r] 
+[2016.02.22-23.03.48:428][415]LogFbx: 	Total Deformer Count 471509248.
+[2016.02.22-23.03.48:428][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:428][415]LogFbx: =================================================
+[2016.02.22-23.03.48:428][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:428][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_hand_r (Type Mesh).
+[2016.02.22-23.03.48:428][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_hand_r]
+[2016.02.22-23.03.48:428][415]LogFbx: =================================================
+[2016.02.22-23.03.48:428][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_arm_l] 
+[2016.02.22-23.03.48:428][415]LogFbx: 	Total Deformer Count 471509248.
+[2016.02.22-23.03.48:428][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:428][415]LogFbx: =================================================
+[2016.02.22-23.03.48:428][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:428][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_arm_l (Type Mesh).
+[2016.02.22-23.03.48:428][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_arm_l]
+[2016.02.22-23.03.48:428][415]LogFbx: =================================================
+[2016.02.22-23.03.48:428][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_forearm_l] 
+[2016.02.22-23.03.48:428][415]LogFbx: 	Total Deformer Count 471509248.
+[2016.02.22-23.03.48:429][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:429][415]LogFbx: =================================================
+[2016.02.22-23.03.48:429][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:429][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_forearm_l (Type Mesh).
+[2016.02.22-23.03.48:429][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_forearm_l]
+[2016.02.22-23.03.48:429][415]LogFbx: =================================================
+[2016.02.22-23.03.48:429][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_hand_l] 
+[2016.02.22-23.03.48:429][415]LogFbx: 	Total Deformer Count 471509248.
+[2016.02.22-23.03.48:429][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:429][415]LogFbx: =================================================
+[2016.02.22-23.03.48:429][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:429][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_hand_l (Type Mesh).
+[2016.02.22-23.03.48:429][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_hand_l]
+[2016.02.22-23.03.48:429][415]LogFbx: =================================================
+[2016.02.22-23.03.48:429][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_chest] 
+[2016.02.22-23.03.48:429][415]LogFbx: 	Total Deformer Count 471509248.
+[2016.02.22-23.03.48:429][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:429][415]LogFbx: =================================================
+[2016.02.22-23.03.48:429][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:429][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_chest (Type Mesh).
+[2016.02.22-23.03.48:429][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_chest]
+[2016.02.22-23.03.48:429][415]LogFbx: =================================================
+[2016.02.22-23.03.48:429][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_logo] 
+[2016.02.22-23.03.48:429][415]LogFbx: 	Total Deformer Count 471445456.
+[2016.02.22-23.03.48:429][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:429][415]LogFbx: =================================================
+[2016.02.22-23.03.48:429][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:429][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_logo (Type Mesh).
+[2016.02.22-23.03.48:429][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_logo]
+[2016.02.22-23.03.48:429][415]LogFbx: =================================================
+[2016.02.22-23.03.48:429][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_calf_l] 
+[2016.02.22-23.03.48:429][415]LogFbx: 	Total Deformer Count 471508224.
+[2016.02.22-23.03.48:429][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:429][415]LogFbx: =================================================
+[2016.02.22-23.03.48:429][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:429][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_calf_l (Type Mesh).
+[2016.02.22-23.03.48:429][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_calf_l]
+[2016.02.22-23.03.48:429][415]LogFbx: =================================================
+[2016.02.22-23.03.48:429][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_calf_r] 
+[2016.02.22-23.03.48:429][415]LogFbx: 	Total Deformer Count 471508224.
+[2016.02.22-23.03.48:429][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:429][415]LogFbx: =================================================
+[2016.02.22-23.03.48:429][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:429][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_calf_r (Type Mesh).
+[2016.02.22-23.03.48:429][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_calf_r]
+[2016.02.22-23.03.48:429][415]LogFbx: =================================================
+[2016.02.22-23.03.48:429][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_foot_l] 
+[2016.02.22-23.03.48:429][415]LogFbx: 	Total Deformer Count 471508224.
+[2016.02.22-23.03.48:429][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:429][415]LogFbx: =================================================
+[2016.02.22-23.03.48:429][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:429][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_foot_l (Type Mesh).
+[2016.02.22-23.03.48:429][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_foot_l]
+[2016.02.22-23.03.48:430][415]LogFbx: =================================================
+[2016.02.22-23.03.48:430][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_foot_r] 
+[2016.02.22-23.03.48:430][415]LogFbx: 	Total Deformer Count 471508224.
+[2016.02.22-23.03.48:430][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:430][415]LogFbx: =================================================
+[2016.02.22-23.03.48:430][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:430][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_foot_r (Type Mesh).
+[2016.02.22-23.03.48:430][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_foot_r]
+[2016.02.22-23.03.48:430][415]LogFbx: =================================================
+[2016.02.22-23.03.48:430][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_thigh_l] 
+[2016.02.22-23.03.48:430][415]LogFbx: 	Total Deformer Count 471508224.
+[2016.02.22-23.03.48:430][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:430][415]LogFbx: =================================================
+[2016.02.22-23.03.48:430][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:430][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_thigh_l (Type Mesh).
+[2016.02.22-23.03.48:430][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_thigh_l]
+[2016.02.22-23.03.48:430][415]LogFbx: =================================================
+[2016.02.22-23.03.48:430][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_thigh_r] 
+[2016.02.22-23.03.48:430][415]LogFbx: 	Total Deformer Count 471508224.
+[2016.02.22-23.03.48:430][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:430][415]LogFbx: =================================================
+[2016.02.22-23.03.48:430][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:430][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_thigh_r (Type Mesh).
+[2016.02.22-23.03.48:430][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_thigh_r]
+[2016.02.22-23.03.48:430][415]LogFbx: =================================================
+[2016.02.22-23.03.48:430][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_pelvis] 
+[2016.02.22-23.03.48:430][415]LogFbx: 	Total Deformer Count 471508224.
+[2016.02.22-23.03.48:430][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:430][415]LogFbx: =================================================
+[2016.02.22-23.03.48:430][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:430][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_pelvis (Type Mesh).
+[2016.02.22-23.03.48:430][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_pelvis]
+[2016.02.22-23.03.48:430][415]LogFbx: =================================================
+[2016.02.22-23.03.48:430][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_lower_torso] 
+[2016.02.22-23.03.48:430][415]LogFbx: 	Total Deformer Count 471408352.
+[2016.02.22-23.03.48:430][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:430][415]LogFbx: =================================================
+[2016.02.22-23.03.48:430][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:430][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_lower_torso (Type Mesh).
+[2016.02.22-23.03.48:430][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_lower_torso]
+[2016.02.22-23.03.48:430][415]LogFbx: =================================================
+[2016.02.22-23.03.48:430][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_neck] 
+[2016.02.22-23.03.48:430][415]LogFbx: 	Total Deformer Count 471444336.
+[2016.02.22-23.03.48:430][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:430][415]LogFbx: =================================================
+[2016.02.22-23.03.48:430][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:430][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_neck (Type Mesh).
+[2016.02.22-23.03.48:430][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_neck]
+[2016.02.22-23.03.48:430][415]LogFbx: =================================================
+[2016.02.22-23.03.48:430][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_head] 
+[2016.02.22-23.03.48:430][415]LogFbx: 	Total Deformer Count 471445344.
+[2016.02.22-23.03.48:430][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:430][415]LogFbx: =================================================
+[2016.02.22-23.03.48:430][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:430][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_head (Type Mesh).
+[2016.02.22-23.03.48:431][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_head]
+[2016.02.22-23.03.48:431][415]LogFbx: =================================================
+[2016.02.22-23.03.48:431][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_arm_r] 
+[2016.02.22-23.03.48:431][415]LogFbx: 	Total Deformer Count 471506944.
+[2016.02.22-23.03.48:431][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:431][415]LogFbx: =================================================
+[2016.02.22-23.03.48:431][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:431][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_arm_r (Type Mesh).
+[2016.02.22-23.03.48:431][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_arm_r]
+[2016.02.22-23.03.48:431][415]LogFbx: =================================================
+[2016.02.22-23.03.48:431][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_forearm_r] 
+[2016.02.22-23.03.48:431][415]LogFbx: 	Total Deformer Count 471506944.
+[2016.02.22-23.03.48:431][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:431][415]LogFbx: =================================================
+[2016.02.22-23.03.48:431][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:431][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_forearm_r (Type Mesh).
+[2016.02.22-23.03.48:431][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_forearm_r]
+[2016.02.22-23.03.48:431][415]LogFbx: =================================================
+[2016.02.22-23.03.48:431][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_hand_r] 
+[2016.02.22-23.03.48:431][415]LogFbx: 	Total Deformer Count 471506944.
+[2016.02.22-23.03.48:431][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:431][415]LogFbx: =================================================
+[2016.02.22-23.03.48:431][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:431][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_hand_r (Type Mesh).
+[2016.02.22-23.03.48:431][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_hand_r]
+[2016.02.22-23.03.48:431][415]LogFbx: =================================================
+[2016.02.22-23.03.48:431][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_arm_l] 
+[2016.02.22-23.03.48:431][415]LogFbx: 	Total Deformer Count 471506944.
+[2016.02.22-23.03.48:431][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:431][415]LogFbx: =================================================
+[2016.02.22-23.03.48:431][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:431][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_arm_l (Type Mesh).
+[2016.02.22-23.03.48:431][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_arm_l]
+[2016.02.22-23.03.48:431][415]LogFbx: =================================================
+[2016.02.22-23.03.48:431][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_forearm_l] 
+[2016.02.22-23.03.48:431][415]LogFbx: 	Total Deformer Count 471506944.
+[2016.02.22-23.03.48:431][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:431][415]LogFbx: =================================================
+[2016.02.22-23.03.48:431][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:431][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_forearm_l (Type Mesh).
+[2016.02.22-23.03.48:431][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_forearm_l]
+[2016.02.22-23.03.48:431][415]LogFbx: =================================================
+[2016.02.22-23.03.48:431][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_hand_l] 
+[2016.02.22-23.03.48:432][415]LogFbx: 	Total Deformer Count 471506944.
+[2016.02.22-23.03.48:432][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:432][415]LogFbx: =================================================
+[2016.02.22-23.03.48:432][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:432][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_hand_l (Type Mesh).
+[2016.02.22-23.03.48:432][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_hand_l]
+[2016.02.22-23.03.48:432][415]LogFbx: =================================================
+[2016.02.22-23.03.48:432][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_chest] 
+[2016.02.22-23.03.48:432][415]LogFbx: 	Total Deformer Count 471506944.
+[2016.02.22-23.03.48:432][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:432][415]LogFbx: =================================================
+[2016.02.22-23.03.48:432][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:432][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_chest (Type Mesh).
+[2016.02.22-23.03.48:432][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_chest]
+[2016.02.22-23.03.48:432][415]LogFbx: =================================================
+[2016.02.22-23.03.48:432][415]LogFbx: Dumping Node START [Mannequin:mannequin_geo_logo] 
+[2016.02.22-23.03.48:432][415]LogFbx: 	Total Deformer Count 471443328.
+[2016.02.22-23.03.48:432][415]LogFbx: 		[Node 1]  (Type Skin).
+[2016.02.22-23.03.48:432][415]LogFbx: =================================================
+[2016.02.22-23.03.48:432][415]LogFbx: 	Attribute () Type (4).
+[2016.02.22-23.03.48:432][415]LogFbx: 		[Node Attribute Child 1] Mannequin:mannequin_geo_logo (Type Mesh).
+[2016.02.22-23.03.48:432][415]LogFbx: Dumping Node END [Mannequin:mannequin_geo_logo]
+[2016.02.22-23.03.48:435][415]LogFbx: Valid bind pose for Pose (Mannequin:skinCluster1) - Mannequin:mannequin_geo_calf_l
+[2016.02.22-23.03.48:435][415]LogFbx: Valid bind pose for Pose (Mannequin:skinCluster2) - Mannequin:mannequin_geo_calf_l
+[2016.02.22-23.03.48:435][415]LogFbx: Valid bind pose for Pose (Mannequin:skinCluster3) - Mannequin:mannequin_geo_calf_l
+[2016.02.22-23.03.48:436][415]LogFbx: Valid bind pose for Pose (Mannequin:skinCluster4) - Mannequin:mannequin_geo_calf_l
+[2016.02.22-23.03.48:436][415]LogFbx: Valid bind pose for Pose (Mannequin:skinCluster5) - Mannequin:mannequin_geo_calf_l
+[2016.02.22-23.03.48:437][415]LogFbx: Valid bind pose for Pose (Mannequin:skinCluster6) - Mannequin:mannequin_geo_calf_l
+[2016.02.22-23.03.48:437][415]LogFbx: Valid bind pose for Pose (Mannequin:skinCluster7) - Mannequin:mannequin_geo_calf_l
+[2016.02.22-23.03.48:438][415]LogFbx: Valid bind pose for Pose (Mannequin:skinCluster8) - Mannequin:mannequin_geo_calf_l
+[2016.02.22-23.03.48:438][415]LogFbx: Valid bind pose for Pose (Mannequin:skinCluster9) - Mannequin:mannequin_geo_calf_l
+[2016.02.22-23.03.48:439][415]LogFbx: Valid bind pose for Pose (Mannequin:skinCluster10) - Mannequin:mannequin_geo_calf_l
+[2016.02.22-23.03.48:439][415]LogFbx: Valid bind pose for Pose (Mannequin:skinCluster11) - Mannequin:mannequin_geo_calf_l
+[2016.02.22-23.03.48:441][415]LogFbx: Valid bind pose for Pose (Mannequin:skinCluster12) - Mannequin:mannequin_geo_calf_l
+[2016.02.22-23.03.48:444][415]LogFbx: Valid bind pose for Pose (Mannequin:skinCluster13) - Mannequin:mannequin_geo_calf_l
+[2016.02.22-23.03.48:444][415]LogFbx: Valid bind pose for Pose (Mannequin:skinCluster14) - Mannequin:mannequin_geo_calf_l
+[2016.02.22-23.03.48:445][415]LogFbx: Valid bind pose for Pose (Mannequin:skinCluster15) - Mannequin:mannequin_geo_calf_l
+[2016.02.22-23.03.48:445][415]LogFbx: Valid bind pose for Pose (Mannequin:skinCluster16) - Mannequin:mannequin_geo_calf_l
+[2016.02.22-23.03.48:446][415]LogFbx: Valid bind pose for Pose (Mannequin:skinCluster17) - Mannequin:mannequin_geo_calf_l
+[2016.02.22-23.03.48:447][415]LogFbx: Valid bind pose for Pose (Mannequin:skinCluster18) - Mannequin:mannequin_geo_calf_l
+[2016.02.22-23.03.48:458][415]LogLinker:Warning: Can't find file '/Game/Anim/body_m'
+[2016.02.22-23.03.48:458][415]LogLinker:Warning: Can't find file '/Game/Anim/body_m'
+[2016.02.22-23.03.48:460][415]LogLinker:Warning: Can't find file '/Game/Anim/UE4_Mannequin_occlusion'
+[2016.02.22-23.03.48:460][415]LogLinker:Warning: Can't find file '/Game/Anim/UE4_Mannequin_occlusion'
+[2016.02.22-23.03.48:460][415]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Anim/UE4_Mannequin_occlusion.UE4_Mannequin_occlusion'
+[2016.02.22-23.03.48:460][415]LogStreaming:Warning: Failed to read file 'E:\builds\Marketplace\depot\ArtSource\Marketplace\Characters\UE4_Mannequin\Textures\Mobile\2k\UE4_Mannequin_occlusion.TGA' error.
+[2016.02.22-23.03.48:461][415]LogStreaming:Warning: Failed to read file 'E:\PrototypeAnims/E:\builds\Marketplace\depot\ArtSource\Marketplace\Characters\UE4_Mannequin\Textures\Mobile\2k\UE4_Mannequin_occlusion.TGA' error.
+[2016.02.22-23.03.48:461][415]LogStreaming:Warning: Failed to read file 'E:\PrototypeAnims/UE4_Mannequin_occlusion.TGA' error.
+[2016.02.22-23.03.48:461][415]LogFbxMaterialImport:Warning: Unable to find TEXTure file UE4_Mannequin_occlusion.TGA. Tried:
+ - E:\builds\Marketplace\depot\ArtSource\Marketplace\Characters\UE4_Mannequin\Textures\Mobile\2k\UE4_Mannequin_occlusion.TGA
+ - E:\PrototypeAnims/E:\builds\Marketplace\depot\ArtSource\Marketplace\Characters\UE4_Mannequin\Textures\Mobile\2k\UE4_Mannequin_occlusion.TGA
+ - E:\PrototypeAnims/UE4_Mannequin_occlusion.TGA
+[2016.02.22-23.03.48:461][415]LogLinker:Warning: Can't find file '/Game/Anim/UE4_Mannequin_normals'
+[2016.02.22-23.03.48:461][415]LogLinker:Warning: Can't find file '/Game/Anim/UE4_Mannequin_normals'
+[2016.02.22-23.03.48:461][415]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Anim/UE4_Mannequin_normals.UE4_Mannequin_normals'
+[2016.02.22-23.03.48:462][415]LogStreaming:Warning: Failed to read file 'E:\builds\Marketplace\depot\ArtSource\Marketplace\Characters\UE4_Mannequin\Textures\Mobile\2k\UE4_Mannequin_normals.TGA' error.
+[2016.02.22-23.03.48:462][415]LogStreaming:Warning: Failed to read file 'E:\PrototypeAnims/E:\builds\Marketplace\depot\ArtSource\Marketplace\Characters\UE4_Mannequin\Textures\Mobile\2k\UE4_Mannequin_normals.TGA' error.
+[2016.02.22-23.03.48:462][415]LogStreaming:Warning: Failed to read file 'E:\PrototypeAnims/UE4_Mannequin_normals.TGA' error.
+[2016.02.22-23.03.48:462][415]LogFbxMaterialImport:Warning: Unable to find TEXTure file UE4_Mannequin_normals.TGA. Tried:
+ - E:\builds\Marketplace\depot\ArtSource\Marketplace\Characters\UE4_Mannequin\Textures\Mobile\2k\UE4_Mannequin_normals.TGA
+ - E:\PrototypeAnims/E:\builds\Marketplace\depot\ArtSource\Marketplace\Characters\UE4_Mannequin\Textures\Mobile\2k\UE4_Mannequin_normals.TGA
+ - E:\PrototypeAnims/UE4_Mannequin_normals.TGA
+[2016.02.22-23.03.48:465][415]LogMaterial: Missing cached shader map for material body_m, compiling. 
+[2016.02.22-23.03.48:480][415]LogFbx: Triangulating skeletal mesh Mannequin:mannequin_geo_calf_l
+[2016.02.22-23.03.48:928][415]LogFbx: Triangulating skeletal mesh Mannequin:mannequin_geo_calf_r
+[2016.02.22-23.03.49:391][415]LogFbx: Triangulating skeletal mesh Mannequin:mannequin_geo_foot_l
+[2016.02.22-23.03.49:662][415]LogFbx: Triangulating skeletal mesh Mannequin:mannequin_geo_foot_r
+[2016.02.22-23.03.49:927][415]LogFbx: Triangulating skeletal mesh Mannequin:mannequin_geo_thigh_l
+[2016.02.22-23.03.50:163][415]LogFbx: Triangulating skeletal mesh Mannequin:mannequin_geo_thigh_r
+[2016.02.22-23.03.50:400][415]LogFbx: Triangulating skeletal mesh Mannequin:mannequin_geo_pelvis
+[2016.02.22-23.03.50:754][415]LogFbx: Triangulating skeletal mesh Mannequin:mannequin_geo_lower_torso
+[2016.02.22-23.03.51:090][415]LogFbx: Triangulating skeletal mesh Mannequin:mannequin_geo_neck
+[2016.02.22-23.03.51:326][415]LogFbx: Triangulating skeletal mesh Mannequin:mannequin_geo_head
+[2016.02.22-23.03.51:674][415]LogFbx: Triangulating skeletal mesh Mannequin:mannequin_geo_arm_r
+[2016.02.22-23.03.51:984][415]LogFbx: Triangulating skeletal mesh Mannequin:mannequin_geo_forearm_r
+[2016.02.22-23.03.52:401][415]LogFbx: Triangulating skeletal mesh Mannequin:mannequin_geo_hand_r
+[2016.02.22-23.03.53:464][415]LogFbx: Triangulating skeletal mesh Mannequin:mannequin_geo_arm_l
+[2016.02.22-23.03.53:774][415]LogFbx: Triangulating skeletal mesh Mannequin:mannequin_geo_forearm_l
+[2016.02.22-23.03.54:190][415]LogFbx: Triangulating skeletal mesh Mannequin:mannequin_geo_hand_l
+[2016.02.22-23.03.55:248][415]LogFbx: Triangulating skeletal mesh Mannequin:mannequin_geo_chest
+[2016.02.22-23.03.55:897][415]LogLinker:Warning: Can't find file '/Game/Anim/logo_m'
+[2016.02.22-23.03.55:897][415]LogLinker:Warning: Can't find file '/Game/Anim/logo_m'
+[2016.02.22-23.03.55:898][415]LogLinker:Warning: Can't find file '/Game/Anim/UE4_LOGO_CARD_N'
+[2016.02.22-23.03.55:898][415]LogLinker:Warning: Can't find file '/Game/Anim/UE4_LOGO_CARD_N'
+[2016.02.22-23.03.55:898][415]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Anim/UE4_LOGO_CARD_N.UE4_LOGO_CARD_N'
+[2016.02.22-23.03.55:898][415]LogStreaming:Warning: Failed to read file 'E:\builds\Marketplace\depot\ArtSource\Marketplace\Characters\UE4_Mannequin\Textures\Mobile\UE4_LOGO_CARD_N.TGA' error.
+[2016.02.22-23.03.55:898][415]LogStreaming:Warning: Failed to read file 'E:\PrototypeAnims/E:\builds\Marketplace\depot\ArtSource\Marketplace\Characters\UE4_Mannequin\Textures\Mobile\UE4_LOGO_CARD_N.TGA' error.
+[2016.02.22-23.03.55:899][415]LogStreaming:Warning: Failed to read file 'E:\PrototypeAnims/UE4_LOGO_CARD_N.TGA' error.
+[2016.02.22-23.03.55:899][415]LogFbxMaterialImport:Warning: Unable to find TEXTure file UE4_LOGO_CARD_N.TGA. Tried:
+ - E:\builds\Marketplace\depot\ArtSource\Marketplace\Characters\UE4_Mannequin\Textures\Mobile\UE4_LOGO_CARD_N.TGA
+ - E:\PrototypeAnims/E:\builds\Marketplace\depot\ArtSource\Marketplace\Characters\UE4_Mannequin\Textures\Mobile\UE4_LOGO_CARD_N.TGA
+ - E:\PrototypeAnims/UE4_LOGO_CARD_N.TGA
+[2016.02.22-23.03.55:904][415]LogMaterial: Missing cached shader map for material logo_m, compiling. 
+[2016.02.22-23.03.55:910][415]LogFbx: Triangulating skeletal mesh Mannequin:mannequin_geo_logo
+[2016.02.22-23.03.55:970][415]LogFbx:Warning: Bones digested - 68  Depth of hierarchy - 12
+[2016.02.22-23.03.56:303][415]LogSkeletalMesh: Chunk 0: 18498 rigid vertices, 4764 soft vertices, 60 active bones
+[2016.02.22-23.03.56:303][415]LogSkeletalMesh: Chunk 1: 0 rigid vertices, 35 soft vertices, 4 active bones
+[2016.02.22-23.03.56:360][415]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 41004 triangles
+[2016.02.22-23.03.56:360][415]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 48 triangles
+[2016.02.22-23.03.56:371][415]LogLinker:Warning: Can't find file '/Game/Anim/WallClimb_PhysicsAsset'
+[2016.02.22-23.03.56:371][415]LogLinker:Warning: Can't find file '/Game/Anim/WallClimb_PhysicsAsset'
+[2016.02.22-23.03.56:371][415]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Anim/WallClimb_PhysicsAsset.WallClimb_PhysicsAsset'
+[2016.02.22-23.03.56:376][415]LogLinker:Warning: Can't find file '/Game/Anim/WallClimb_Skeleton'
+[2016.02.22-23.03.56:376][415]LogLinker:Warning: Can't find file '/Game/Anim/WallClimb_Skeleton'
+[2016.02.22-23.03.56:376][415]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Anim/WallClimb_Skeleton.WallClimb_Skeleton'
+[2016.02.22-23.03.56:450][415]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2016.02.22-23.03.56:450][415]FBXImport:Warning: Warning The following bones are missing from the bind pose:
+Mannequin:ik_foot_root  
+Mannequin:ik_foot_l  
+Mannequin:ik_foot_r  
+Mannequin:ik_hand_root  
+Mannequin:ik_hand_gun  
+Mannequin:ik_hand_l  
+Mannequin:ik_hand_r  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2016.02.22-23.03.56:463][415]LogFactory: FactoryCreateBinary: SkeletalMesh with FbxFactory (0 0 E:\PrototypeAnims\WallHang.fbx)
+[2016.02.22-23.04.30:624][415]LogFactory: FactoryCreateBinary: AnimSequence with FbxFactory (0 0 E:\PrototypeAnims\WallRun.fbx)
+[2016.02.22-23.04.30:893][416]LogMaterial:Warning: Material /Game/Anim/body_m.body_m needed to have new flag set bUsedWithSkeletalMesh !
+[2016.02.22-23.04.30:915][416]LogMaterial: Missing cached shader map for material body_m, compiling. 
+[2016.02.22-23.04.30:924][416]LogMaterial: 0.000125 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.22-23.04.30:924][416]LogMaterial:Warning: Material /Game/Anim/logo_m.logo_m needed to have new flag set bUsedWithSkeletalMesh !
+[2016.02.22-23.04.30:926][416]LogMaterial: Missing cached shader map for material logo_m, compiling. 
+[2016.02.22-23.04.30:934][416]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.22-23.06.45:789][291]Cmd: QUIT_EDITOR
+[2016.02.22-23.06.45:960][291]LogExit: Preparing to exit.
+[2016.02.22-23.06.46:629][291]LogExit: Editor shut down
+[2016.02.22-23.06.46:629][291]LogExit: Transaction tracking system shut down
+[2016.02.22-23.06.46:631][291]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001278F880
+[2016.02.22-23.06.46:631][291]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F32B880
+[2016.02.22-23.06.46:631][291]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000113363E0
+[2016.02.22-23.06.46:631][291]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000035E56700
+[2016.02.22-23.06.46:631][291]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BE27100
+[2016.02.22-23.06.46:632][291]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002ED9A340
+[2016.02.22-23.06.46:738][291]LogExit: Object subsystem successfully closed.
+[2016.02.22-23.06.46:749][291]LogD3D11RHI: Shutdown
+[2016.02.22-23.06.46:749][291]LogD3D11RHI: CleanupD3DDevice
+[2016.02.22-23.06.46:783][291]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.02.22-23.06.46:794][291]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.02.22-23.06.46:794][291]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.02.22-23.06.46:794][291]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.02.22-23.06.46:794][291]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.02.22-23.06.46:794][291]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.02.22-23.06.46:794][291]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.02.22-23.06.46:794][291]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.02.22-23.06.46:794][291]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.02.22-23.06.46:794][291]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.02.22-23.06.46:794][291]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.02.22-23.06.46:795][291]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.02.22-23.06.46:795][291]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.02.22-23.06.46:795][291]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.02.22-23.06.46:795][291]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.02.22-23.06.46:795][291]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.02.22-23.06.46:795][291]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.02.22-23.06.46:795][291]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.02.22-23.06.46:795][291]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.02.22-23.06.46:795][291]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.02.22-23.06.46:795][291]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.02.22-23.06.46:795][291]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.02.22-23.06.46:795][291]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.02.22-23.06.46:795][291]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.02.22-23.06.46:795][291]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.02.22-23.06.46:795][291]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.02.22-23.06.46:795][291]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.02.22-23.06.47:734][291]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.02.22-23.06.47:734][291]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.02.22-23.06.47:734][291]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.02.22-23.06.47:734][291]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.02.22-23.06.47:734][291]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.02.22-23.06.47:734][291]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.02.22-23.06.47:734][291]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.02.22-23.06.47:734][291]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.02.22-23.06.47:734][291]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.02.22-23.06.47:734][291]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.02.22-23.06.47:735][291]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.02.22-23.06.47:735][291]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.02.22-23.06.47:735][291]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.02.22-23.06.47:735][291]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.02.22-23.06.47:735][291]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.02.22-23.06.47:735][291]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.02.22-23.06.47:735][291]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.02.22-23.06.47:735][291]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.02.22-23.06.47:735][291]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.02.22-23.06.47:735][291]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.02.22-23.06.47:735][291]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.02.22-23.06.47:735][291]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.02.22-23.06.47:735][291]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.02.22-23.06.47:735][291]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.02.22-23.06.47:735][291]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.02.22-23.06.47:735][291]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.02.22-23.06.47:735][291]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.02.22-23.06.47:735][291]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.02.22-23.06.47:735][291]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.02.22-23.06.47:736][291]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.02.22-23.06.47:736][291]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.02.22-23.06.47:736][291]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.02.22-23.06.47:736][291]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.02.22-23.06.47:736][291]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.02.22-23.06.47:736][291]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.02.22-23.06.47:736][291]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.02.22-23.06.47:736][291]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.02.22-23.06.47:736][291]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.02.22-23.06.47:736][291]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.02.22-23.06.47:736][291]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.02.22-23.06.47:736][291]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.02.22-23.06.47:736][291]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.02.22-23.06.47:736][291]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.02.22-23.06.47:736][291]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.02.22-23.06.47:736][291]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.02.22-23.06.47:736][291]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.02.22-23.06.47:736][291]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.02.22-23.06.47:736][291]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.02.22-23.06.47:736][291]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.02.22-23.06.47:736][291]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.02.22-23.06.47:976][291]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.02.22-23.06.47:976][291]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.02.22-23.06.47:976][291]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.02.22-23.06.47:976][291]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.02.22-23.06.47:976][291]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.02.22-23.06.47:976][291]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.02.22-23.06.47:976][291]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.02.22-23.06.47:976][291]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.02.22-23.06.47:987][291]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.02.22-23.06.47:987][291]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.02.22-23.06.47:987][291]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.02.22-23.06.47:987][291]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.02.22-23.06.47:987][291]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.02.22-23.06.47:988][291]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.02.22-23.06.47:988][291]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.02.22-23.06.47:988][291]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.02.22-23.06.47:988][291]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.02.22-23.06.47:988][291]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.02.22-23.06.47:988][291]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.02.22-23.06.47:988][291]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.02.22-23.06.47:988][291]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.02.22-23.06.47:988][291]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.02.22-23.06.47:988][291]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.02.22-23.06.47:988][291]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.02.22-23.06.47:988][291]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.02.22-23.06.47:988][291]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.02.22-23.06.47:988][291]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.02.22-23.06.47:988][291]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.02.22-23.06.47:988][291]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.02.22-23.06.47:988][291]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.02.22-23.06.47:988][291]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.02.22-23.06.47:988][291]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.02.22-23.06.47:989][291]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.02.22-23.06.47:990][291]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.02.22-23.06.48:111][291]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.02.22-23.06.48:112][291]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.02.22-23.06.48:112][291]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.02.22-23.06.48:212][291]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.02.22-23.06.48:212][291]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.02.22-23.06.48:212][291]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.02.22-23.06.48:217][291]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.02.22-23.06.48:217][291]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.02.22-23.06.48:218][291]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.02.22-23.06.48:218][291]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.02.22-23.06.48:218][291]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.02.22-23.06.48:218][291]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.02.22-23.06.48:218][291]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.02.22-23.06.48:218][291]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.02.22-23.06.48:218][291]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.02.22-23.06.48:218][291]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.02.22-23.06.48:218][291]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.02.22-23.06.48:218][291]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.02.22-23.06.48:218][291]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.02.22-23.06.48:218][291]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.02.22-23.06.48:218][291]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.02.22-23.06.48:218][291]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.02.22-23.06.48:222][291]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.02.22-23.06.48:222][291]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.02.22-23.06.48:222][291]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.02.22-23.06.48:222][291]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.02.22-23.06.48:222][291]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.02.22-23.06.48:222][291]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.02.22-23.06.48:222][291]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.02.22-23.06.48:222][291]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.02.22-23.06.48:222][291]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.02.22-23.06.48:222][291]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.02.22-23.06.48:302][291]LogDerivedDataCache: Shutdown
+[2016.02.22-23.06.48:302][291]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.02.22-23.06.48:302][291]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.02.22-23.06.48:302][291]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.02.22-23.06.48:302][291]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.02.22-23.06.48:302][291]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.02.22-23.06.48:302][291]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.02.22-23.06.48:302][291]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.02.22-23.06.48:302][291]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.02.22-23.06.48:302][291]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.02.22-23.06.48:302][291]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.02.22-23.06.48:302][291]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.02.22-23.06.48:302][291]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.02.22-23.06.48:302][291]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.02.22-23.06.48:303][291]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.02.22-23.06.48:303][291]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.02.22-23.06.48:303][291]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.02.22-23.06.48:303][291]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.02.22-23.06.48:303][291]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.02.22-23.06.48:303][291]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.02.22-23.06.48:303][291]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.02.22-23.06.48:303][291]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.02.22-23.06.48:303][291]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.02.22-23.06.48:303][291]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.02.22-23.06.48:303][291]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.02.22-23.06.48:303][291]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.02.22-23.06.48:303][291]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.02.22-23.06.48:303][291]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.02.22-23.06.48:303][291]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.02.22-23.06.48:303][291]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.02.22-23.06.48:303][291]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.02.22-23.06.48:303][291]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.02.22-23.06.48:303][291]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.02.22-23.06.48:303][291]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.02.22-23.06.48:303][291]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.02.22-23.06.48:303][291]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.02.22-23.06.48:303][291]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.02.22-23.06.48:303][291]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.02.22-23.06.50:303][291]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.02.22-23.06.50:303][291]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.02.22-23.06.50:303][291]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.02.22-23.06.50:303][291]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.02.22-23.06.50:303][291]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.02.22-23.06.50:303][291]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.02.22-23.06.50:303][291]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.02.22-23.06.50:304][291]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.02.22-23.06.50:304][291]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.02.22-23.06.50:304][291]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.02.22-23.06.50:304][291]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.02.22-23.06.50:304][291]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.02.22-23.06.50:304][291]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.02.22-23.06.50:304][291]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.02.22-23.06.50:304][291]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.02.22-23.06.50:304][291]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.02.22-23.06.50:304][291]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.02.22-23.06.50:306][291]LogExit: Exiting.
+[2016.02.22-23.06.50:308][291]Log file closed, 02/23/16 10:06:50
